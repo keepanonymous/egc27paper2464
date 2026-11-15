@@ -1,23 +1,10 @@
 # GenSel: learning disjunctive rules by generating minimal generators
 
-Code, data and raw results for the paper GenSel (French version for EGC 2027). Everything needed to reproduce the experiments and the tables of
-the paper is in this archive.
+Here is the code, data and raw results for the GenSel approach. 
 
-```
-GenSel/
-├── README.md            this file
-├── LISEZMOI.txt         short French version of this file
-├── paper_egc/           LaTeX sources of the French EGC 2027 version (tables are generated, see step 5)
-└── code/
-    ├── config.py        paths (data, results, solver), overridable by environment variables
-    ├── data/            the 9 datasets (PMLB, .tsv.gz)
-    ├── results/         raw results used in the paper (one JSON record per line)
-    ├── jobs/            job lists (dataset, fold, ...) used by the run scripts
-    ├── scripts/         build and run scripts
-    └── *.py             source code (see "Source files" below)
-```
-
++++++++++++++++++++++++++++++++++
 ## 1. Requirements
++++++++++++++++++++++++++++++++++
 
 - Linux or macOS, Python ≥ 3.10, `git`, `make`, `g++`, `zlib` (Debian/Ubuntu:
   `sudo apt install build-essential zlib1g-dev git`).
@@ -37,7 +24,9 @@ bash scripts/build_openwbo.sh
 
 To use an Open-WBO binary installed elsewhere, set `OPENWBO=/path/to/open-wbo_release`.
 
++++++++++++++++++++++++++++++++++
 ## 2. Quick check (about 2 minutes)
++++++++++++++++++++++++++++++++++
 
 All commands are run from `GenSel/code`. New results are written to a separate directory, so
 that the results of the paper in `results/` are left untouched:
@@ -53,29 +42,9 @@ python3 run.py iris 0 5 10 $GENSEL_RESULTS/base.jsonl RIPPER,MLIC,DRL
 On Iris fold 0, GenSel (`"method": "CG"`) should reach the training objective `train_obj = 8`,
 which is the optimum.
 
-## 3. Reproducing the experiments
-
-Each script runs 2 jobs in parallel by default (the paper used a 2-core machine with 7 GB of
-memory); pass another number as first argument to change this. Every run has a time limit of
-60 s per fold and method (30 s on the validation splits), so the total wall-clock time is about
-10 to 12 hours with 2 parallel jobs.
-
-| Step | Command | Paper | Output in `$GENSEL_RESULTS` |
-|---|---|---|---|
-| Baselines (LR, RF, RIPPER, MLIC, DRL), k=3, and DRL/MLIC with k=8 | `bash scripts/run_baselines.sh` | Tables 2–4 | `results.jsonl`, `results_k.jsonl` |
-| GenSel-G, GenSel, GenSel-F, k=3, and GenSel with k ∈ {1,2,5,8} | `bash scripts/run_gensel.sh` | Tables 2–4 | `results_gen.jsonl`, `results_gen_k.jsonl` |
-| Choice of k on validation data | `bash scripts/run_select_k.sh` | Table 5 | `results_val.jsonl`, `results_k125.jsonl` |
-| Counting minimal generators; exact selection over enumerated generators | `bash scripts/run_enum.sh` | Table 1 and paragraph « Sélection exacte sur les générateurs énumérés » | `enum_counts.jsonl`, `results_exact.jsonl.lane*` |
-
-Without `GENSEL_RESULTS`, the scripts append to `code/results/`, which already contains the
-results of the paper.
-
-**Note on reproducibility.** Folds are fixed (stratified 5-fold, `random_state=0`) and the
-binarization is fitted on the training folds only. The solvers are, however, stopped by time
-limits, so on the larger datasets the results depend on the speed of the machine and can differ
-slightly from the paper; on the six smaller datasets, GenSel usually terminates before the limit.
-
-## 4. Running a single experiment
++++++++++++++++++++++++++++++++++
+## 3. Running a single experiment
++++++++++++++++++++++++++++++++++
 
 ```bash
 python3 run_gen.py  <dataset> <fold> <time_s> <out.jsonl> <methods>          # methods: Greedy, CG, CG-F
@@ -94,7 +63,9 @@ Each line of an output file is one JSON record with, among others, `dataset`, `f
 `k`, `test_acc`, `train_obj` (objective (1) on the training data), `size`, `time`, `certified`
 (certificate of Proposition 4) and the learned `rules`.
 
-## 5. Regenerating the tables
++++++++++++++++++++++++++++++++++
+## 4. Regenerating the tables
++++++++++++++++++++++++++++++++++
 
 ```bash
 bash scripts/make_tables.sh        # writes paper_egc/tab_*.tex
@@ -105,7 +76,9 @@ cd ../paper_egc && pdflatex egc2027_gensel && bibtex egc2027_gensel && pdflatex 
 With the results shipped in `code/results/`, the generated tables are identical to those of
 the paper. To build tables from new results, set `GENSEL_RESULTS` to their directory.
 
++++++++++++++++++++++++++++++++++
 ## Source files
++++++++++++++++++++++++++++++++++
 
 | File | Content |
 |---|---|
