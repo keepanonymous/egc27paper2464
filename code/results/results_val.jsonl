@@ -1,0 +1,675 @@
+{"dataset": "australian", "fold": 0, "k": 8, "method": "GenSel", "timeout": 30, "val_acc": 0.8558558558558559, "size": 38, "certified": true, "time": 22.605472326278687}
+{"dataset": "australian", "fold": 0, "k": 8, "method": "DRL", "timeout": 30, "val_acc": 0.7027027027027027, "size": 32, "status": "SATISFIABLE", "time": 28.692458152770996}
+{"dataset": "australian", "fold": 0, "k": 8, "method": "MLIC", "timeout": 30, "val_acc": 0.8648648648648649, "size": 44, "status": "SATISFIABLE", "time": 28.147486448287964}
+{"dataset": "wdbc", "fold": 4, "k": 8, "method": "GenSel", "timeout": 30, "val_acc": 0.9130434782608695, "size": 13, "certified": true, "time": 22.708989143371582}
+{"dataset": "wdbc", "fold": 4, "k": 8, "method": "DRL", "timeout": 30, "val_acc": 0.358695652173913, "size": 45, "status": "SATISFIABLE", "time": 29.33696484565735}
+{"dataset": "wdbc", "fold": 4, "k": 8, "method": "MLIC", "timeout": 30, "val_acc": 0.8478260869565217, "size": 37, "status": "SATISFIABLE", "time": 28.644272565841675}
+{"dataset": "wdbc", "fold": 1, "k": 5, "method": "GenSel", "timeout": 30, "val_acc": 0.8901098901098901, "size": 12, "certified": true, "time": 22.417077779769897}
+{"dataset": "wdbc", "fold": 1, "k": 5, "method": "DRL", "timeout": 30, "val_acc": 0.43956043956043955, "size": 27, "status": "SATISFIABLE", "time": 29.211220026016235}
+{"dataset": "wdbc", "fold": 1, "k": 5, "method": "MLIC", "timeout": 30, "val_acc": 0.945054945054945, "size": 29, "status": "SATISFIABLE", "time": 28.49553894996643}
+{"dataset": "spambase", "fold": 4, "k": 2, "method": "GenSel", "timeout": 30, "val_acc": 0.8629579375848032, "size": 26, "certified": false, "time": 29.891889810562134}
+{"dataset": "spambase", "fold": 4, "k": 2, "method": "DRL", "timeout": 30, "val_acc": 0.3948439620081411, "size": 2, "status": "SATISFIABLE", "time": 28.45488715171814}
+{"dataset": "spambase", "fold": 4, "k": 2, "method": "MLIC", "timeout": 30, "val_acc": 0.6051560379918589, "size": 0, "status": "SATISFIABLE", "time": 28.728164672851562}
+{"dataset": "adult", "fold": 4, "k": 3, "method": "GenSel", "timeout": 30, "val_acc": 0.7946257197696737, "size": 25, "certified": false, "time": 29.841999292373657}
+{"dataset": "adult", "fold": 4, "k": 3, "method": "DRL", "timeout": 30, "error": "no model", "time": 28.918459177017212}
+{"dataset": "adult", "fold": 4, "k": 3, "method": "MLIC", "timeout": 30, "val_acc": 0.7607165706973769, "size": 0, "status": "SATISFIABLE", "time": 29.10688543319702}
+{"dataset": "spambase", "fold": 2, "k": 1, "method": "GenSel", "timeout": 30, "val_acc": 0.8276797829036635, "size": 11, "certified": false, "time": 29.834820985794067}
+{"dataset": "spambase", "fold": 2, "k": 1, "method": "DRL", "timeout": 30, "val_acc": 0.6635006784260515, "size": 1, "status": "SATISFIABLE", "time": 28.851686000823975}
+{"dataset": "tictactoe", "fold": 3, "k": 5, "method": "GenSel", "timeout": 30, "val_acc": 0.9285714285714286, "size": 13, "certified": true, "time": 27.93820571899414}
+{"dataset": "spambase", "fold": 2, "k": 1, "method": "MLIC", "timeout": 30, "val_acc": 0.6065128900949797, "size": 0, "status": "SATISFIABLE", "time": 28.44091534614563}
+{"dataset": "tictactoe", "fold": 3, "k": 5, "method": "DRL", "timeout": 30, "val_acc": 0.6298701298701299, "size": 17, "status": "SATISFIABLE", "time": 28.273256063461304}
+{"dataset": "tictactoe", "fold": 3, "k": 5, "method": "MLIC", "timeout": 30, "val_acc": 0.8181818181818182, "size": 27, "status": "SATISFIABLE", "time": 28.064528465270996}
+{"dataset": "tictactoe", "fold": 2, "k": 5, "method": "GenSel", "timeout": 30, "val_acc": 0.8961038961038961, "size": 13, "certified": true, "time": 27.224310636520386}
+{"dataset": "tictactoe", "fold": 2, "k": 5, "method": "DRL", "timeout": 30, "val_acc": 0.6363636363636364, "size": 9, "status": "SATISFIABLE", "time": 28.265004873275757}
+{"dataset": "tictactoe", "fold": 2, "k": 5, "method": "MLIC", "timeout": 30, "val_acc": 0.8571428571428571, "size": 22, "status": "SATISFIABLE", "time": 28.062355518341064}
+{"dataset": "wdbc", "fold": 2, "k": 5, "method": "GenSel", "timeout": 30, "val_acc": 0.9230769230769231, "size": 17, "certified": true, "time": 22.670228481292725}
+{"dataset": "wdbc", "fold": 2, "k": 5, "method": "DRL", "timeout": 30, "val_acc": 0.5164835164835165, "size": 28, "status": "SATISFIABLE", "time": 28.856919050216675}
+{"dataset": "wdbc", "fold": 2, "k": 5, "method": "MLIC", "timeout": 30, "val_acc": 0.9120879120879121, "size": 31, "status": "SATISFIABLE", "time": 28.47285509109497}
+{"dataset": "ionosphere", "fold": 3, "k": 1, "method": "GenSel", "timeout": 30, "val_acc": 0.9824561403508771, "size": 6, "certified": true, "time": 21.6619610786438}
+{"dataset": "ionosphere", "fold": 3, "k": 1, "method": "DRL", "timeout": 30, "val_acc": 0.9298245614035088, "size": 6, "status": "OPTIMUM FOUND", "time": 1.1207728385925293}
+{"dataset": "ionosphere", "fold": 3, "k": 1, "method": "MLIC", "timeout": 30, "val_acc": 0.8421052631578947, "size": 1, "status": "OPTIMUM FOUND", "time": 8.899290561676025}
+{"dataset": "iris", "fold": 1, "k": 5, "method": "GenSel", "timeout": 30, "val_acc": 0.9583333333333334, "size": 11, "certified": true, "time": 1.0957086086273193}
+{"dataset": "iris", "fold": 1, "k": 5, "method": "DRL", "timeout": 30, "val_acc": 0.9166666666666666, "size": 15, "status": "OPTIMUM FOUND", "time": 3.055854320526123}
+{"dataset": "iris", "fold": 1, "k": 5, "method": "MLIC", "timeout": 30, "val_acc": 0.9166666666666666, "size": 8, "status": "OPTIMUM FOUND", "time": 0.49735045433044434}
+{"dataset": "iris", "fold": 2, "k": 1, "method": "GenSel", "timeout": 30, "val_acc": 0.9583333333333334, "size": 4, "certified": true, "time": 0.3751997947692871}
+{"dataset": "iris", "fold": 2, "k": 1, "method": "DRL", "timeout": 30, "val_acc": 0.9583333333333334, "size": 4, "status": "OPTIMUM FOUND", "time": 0.03733110427856445}
+{"dataset": "iris", "fold": 2, "k": 1, "method": "MLIC", "timeout": 30, "val_acc": 0.75, "size": 1, "status": "OPTIMUM FOUND", "time": 0.025496244430541992}
+{"dataset": "spambase", "fold": 0, "k": 3, "method": "GenSel", "timeout": 30, "val_acc": 0.8668478260869565, "size": 24, "certified": false, "time": 29.796510457992554}
+{"dataset": "spambase", "fold": 0, "k": 3, "method": "DRL", "timeout": 30, "error": "no model", "time": 28.566689014434814}
+{"dataset": "spambase", "fold": 0, "k": 3, "method": "MLIC", "timeout": 30, "val_acc": 0.6059782608695652, "size": 0, "status": "SATISFIABLE", "time": 28.06220006942749}
+{"dataset": "iris", "fold": 2, "k": 3, "method": "GenSel", "timeout": 30, "val_acc": 0.9583333333333334, "size": 8, "certified": true, "time": 0.9413578510284424}
+{"dataset": "iris", "fold": 2, "k": 3, "method": "DRL", "timeout": 30, "val_acc": 0.9583333333333334, "size": 8, "status": "OPTIMUM FOUND", "time": 0.2732841968536377}
+{"dataset": "iris", "fold": 2, "k": 3, "method": "MLIC", "timeout": 30, "val_acc": 0.9583333333333334, "size": 6, "status": "OPTIMUM FOUND", "time": 0.09660172462463379}
+{"dataset": "iris", "fold": 2, "k": 8, "method": "GenSel", "timeout": 30, "val_acc": 0.9583333333333334, "size": 15, "certified": true, "time": 0.969501256942749}
+{"dataset": "iris", "fold": 2, "k": 8, "method": "DRL", "timeout": 30, "val_acc": 1.0, "size": 20, "status": "OPTIMUM FOUND", "time": 10.920785903930664}
+{"dataset": "iris", "fold": 2, "k": 8, "method": "MLIC", "timeout": 30, "val_acc": 0.9583333333333334, "size": 15, "status": "OPTIMUM FOUND", "time": 3.157224178314209}
+{"dataset": "magic", "fold": 3, "k": 2, "method": "GenSel", "timeout": 30, "val_acc": 0.7122207621550591, "size": 10, "certified": false, "time": 29.179307460784912}
+{"dataset": "magic", "fold": 3, "k": 2, "method": "DRL", "timeout": 30, "val_acc": 0.35151116951379763, "size": 2, "status": "SATISFIABLE", "time": 29.45566725730896}
+{"dataset": "tictactoe", "fold": 2, "k": 3, "method": "GenSel", "timeout": 30, "val_acc": 0.7662337662337663, "size": 8, "certified": true, "time": 23.93801188468933}
+{"dataset": "magic", "fold": 3, "k": 2, "method": "MLIC", "timeout": 30, "val_acc": 0.6484888304862023, "size": 0, "status": "SATISFIABLE", "time": 28.938265800476074}
+{"dataset": "tictactoe", "fold": 2, "k": 3, "method": "DRL", "timeout": 30, "val_acc": 0.7792207792207793, "size": 8, "status": "SATISFIABLE", "time": 28.183387279510498}
+{"dataset": "tictactoe", "fold": 2, "k": 3, "method": "MLIC", "timeout": 30, "val_acc": 0.6558441558441559, "size": 20, "status": "SATISFIABLE", "time": 28.048555374145508}
+{"dataset": "wdbc", "fold": 2, "k": 8, "method": "GenSel", "timeout": 30, "val_acc": 0.9010989010989011, "size": 15, "certified": true, "time": 27.2881281375885}
+{"dataset": "wdbc", "fold": 2, "k": 8, "method": "DRL", "timeout": 30, "val_acc": 0.2857142857142857, "size": 27, "status": "SATISFIABLE", "time": 29.128336429595947}
+{"dataset": "wdbc", "fold": 2, "k": 8, "method": "MLIC", "timeout": 30, "val_acc": 0.9120879120879121, "size": 43, "status": "SATISFIABLE", "time": 28.597874879837036}
+{"dataset": "iris", "fold": 3, "k": 8, "method": "GenSel", "timeout": 30, "val_acc": 0.9583333333333334, "size": 11, "certified": true, "time": 1.1450481414794922}
+{"dataset": "iris", "fold": 3, "k": 8, "method": "DRL", "timeout": 30, "val_acc": 0.9583333333333334, "size": 21, "status": "OPTIMUM FOUND", "time": 15.933378458023071}
+{"dataset": "iris", "fold": 3, "k": 8, "method": "MLIC", "timeout": 30, "val_acc": 0.9583333333333334, "size": 12, "status": "OPTIMUM FOUND", "time": 0.7351875305175781}
+{"dataset": "wdbc", "fold": 0, "k": 8, "method": "GenSel", "timeout": 30, "val_acc": 0.9560439560439561, "size": 16, "certified": true, "time": 24.664124488830566}
+{"dataset": "wdbc", "fold": 0, "k": 8, "method": "DRL", "timeout": 30, "val_acc": 0.42857142857142855, "size": 27, "status": "SATISFIABLE", "time": 28.972951889038086}
+{"dataset": "wdbc", "fold": 0, "k": 8, "method": "MLIC", "timeout": 30, "val_acc": 0.9230769230769231, "size": 32, "status": "SATISFIABLE", "time": 28.598778247833252}
+{"dataset": "spambase", "fold": 2, "k": 2, "method": "GenSel", "timeout": 30, "val_acc": 0.8629579375848032, "size": 35, "certified": false, "time": 29.797451496124268}
+{"dataset": "spambase", "fold": 2, "k": 2, "method": "DRL", "timeout": 30, "val_acc": 0.39348710990502034, "size": 2, "status": "SATISFIABLE", "time": 28.655587434768677}
+{"dataset": "spambase", "fold": 2, "k": 2, "method": "MLIC", "timeout": 30, "val_acc": 0.6065128900949797, "size": 0, "status": "SATISFIABLE", "time": 28.743067979812622}
+{"dataset": "magic", "fold": 1, "k": 2, "method": "GenSel", "timeout": 30, "val_acc": 0.6816688567674113, "size": 10, "certified": false, "time": 30.078659534454346}
+{"dataset": "australian", "fold": 0, "k": 3, "method": "GenSel", "timeout": 30, "val_acc": 0.8738738738738738, "size": 14, "certified": true, "time": 21.089332342147827}
+{"dataset": "magic", "fold": 1, "k": 2, "method": "DRL", "timeout": 30, "val_acc": 0.35151116951379763, "size": 2, "status": "SATISFIABLE", "time": 29.88391089439392}
+{"dataset": "australian", "fold": 0, "k": 3, "method": "DRL", "timeout": 30, "val_acc": 0.8918918918918919, "size": 12, "status": "SATISFIABLE", "time": 28.235458374023438}
+{"dataset": "magic", "fold": 1, "k": 2, "method": "MLIC", "timeout": 30, "val_acc": 0.6484888304862023, "size": 0, "status": "SATISFIABLE", "time": 28.780569791793823}
+{"dataset": "australian", "fold": 0, "k": 3, "method": "MLIC", "timeout": 30, "val_acc": 0.8828828828828829, "size": 14, "status": "SATISFIABLE", "time": 28.06588912010193}
+{"dataset": "ionosphere", "fold": 1, "k": 1, "method": "GenSel", "timeout": 30, "val_acc": 0.9649122807017544, "size": 6, "certified": true, "time": 21.978498935699463}
+{"dataset": "ionosphere", "fold": 1, "k": 1, "method": "DRL", "timeout": 30, "val_acc": 0.9649122807017544, "size": 6, "status": "OPTIMUM FOUND", "time": 0.7032930850982666}
+{"dataset": "australian", "fold": 3, "k": 8, "method": "GenSel", "timeout": 30, "val_acc": 0.8198198198198198, "size": 43, "certified": true, "time": 22.621386766433716}
+{"dataset": "ionosphere", "fold": 1, "k": 1, "method": "MLIC", "timeout": 30, "val_acc": 0.8245614035087719, "size": 1, "status": "OPTIMUM FOUND", "time": 18.617199659347534}
+{"dataset": "australian", "fold": 3, "k": 8, "method": "DRL", "timeout": 30, "val_acc": 0.6486486486486487, "size": 39, "status": "SATISFIABLE", "time": 28.728852033615112}
+{"dataset": "australian", "fold": 3, "k": 8, "method": "MLIC", "timeout": 30, "val_acc": 0.7567567567567568, "size": 40, "status": "SATISFIABLE", "time": 28.150148153305054}
+{"dataset": "magic", "fold": 0, "k": 8, "method": "GenSel", "timeout": 30, "val_acc": 0.7092641261498029, "size": 10, "certified": false, "time": 29.28372073173523}
+{"dataset": "magic", "fold": 0, "k": 8, "method": "DRL", "timeout": 30, "error": "no model", "time": 35.03337502479553}
+{"dataset": "australian", "fold": 2, "k": 2, "method": "GenSel", "timeout": 30, "val_acc": 0.8558558558558559, "size": 8, "certified": true, "time": 23.09814476966858}
+{"dataset": "magic", "fold": 0, "k": 8, "method": "MLIC", "timeout": 30, "val_acc": 0.6484888304862023, "size": 0, "status": "SATISFIABLE", "time": 28.996273279190063}
+{"dataset": "australian", "fold": 2, "k": 2, "method": "DRL", "timeout": 30, "val_acc": 0.8468468468468469, "size": 9, "status": "SATISFIABLE", "time": 28.167039394378662}
+{"dataset": "australian", "fold": 2, "k": 2, "method": "MLIC", "timeout": 30, "val_acc": 0.8378378378378378, "size": 8, "status": "SATISFIABLE", "time": 28.049731254577637}
+{"dataset": "adult", "fold": 3, "k": 1, "method": "GenSel", "timeout": 30, "val_acc": 0.7928342930262317, "size": 11, "certified": false, "time": 29.810935497283936}
+{"dataset": "adult", "fold": 3, "k": 1, "method": "DRL", "timeout": 30, "val_acc": 0.3618682021753039, "size": 1, "status": "SATISFIABLE", "time": 29.875011920928955}
+{"dataset": "adult", "fold": 3, "k": 1, "method": "MLIC", "timeout": 30, "val_acc": 0.7607165706973769, "size": 0, "status": "SATISFIABLE", "time": 28.18760085105896}
+{"dataset": "tictactoe", "fold": 3, "k": 3, "method": "GenSel", "timeout": 30, "val_acc": 0.7727272727272727, "size": 8, "certified": true, "time": 24.869214057922363}
+{"dataset": "tictactoe", "fold": 3, "k": 3, "method": "DRL", "timeout": 30, "val_acc": 0.6428571428571429, "size": 11, "status": "SATISFIABLE", "time": 28.165738582611084}
+{"dataset": "tictactoe", "fold": 3, "k": 3, "method": "MLIC", "timeout": 30, "val_acc": 0.7402597402597403, "size": 11, "status": "SATISFIABLE", "time": 28.061715364456177}
+{"dataset": "magic", "fold": 2, "k": 5, "method": "GenSel", "timeout": 30, "val_acc": 0.7233902759526938, "size": 10, "certified": false, "time": 30.099637031555176}
+{"dataset": "adult", "fold": 0, "k": 5, "method": "GenSel", "timeout": 30, "val_acc": 0.7796545105566218, "size": 17, "certified": false, "time": 30.156105756759644}
+{"dataset": "magic", "fold": 2, "k": 5, "method": "DRL", "timeout": 30, "error": "no model", "time": 28.69150996208191}
+{"dataset": "magic", "fold": 2, "k": 5, "method": "MLIC", "timeout": 30, "val_acc": 0.6484888304862023, "size": 0, "status": "SATISFIABLE", "time": 28.595319986343384}
+{"dataset": "adult", "fold": 0, "k": 5, "method": "DRL", "timeout": 30, "error": "no model", "time": 52.38707184791565}
+{"dataset": "ionosphere", "fold": 4, "k": 8, "method": "GenSel", "timeout": 30, "val_acc": 0.8070175438596491, "size": 18, "certified": true, "time": 24.867985486984253}
+{"dataset": "adult", "fold": 0, "k": 5, "method": "MLIC", "timeout": 30, "val_acc": 0.7607165706973769, "size": 0, "status": "SATISFIABLE", "time": 28.55508041381836}
+{"dataset": "ionosphere", "fold": 4, "k": 8, "method": "DRL", "timeout": 30, "val_acc": 0.8070175438596491, "size": 57, "status": "SATISFIABLE", "time": 28.5085871219635}
+{"dataset": "ionosphere", "fold": 4, "k": 8, "method": "MLIC", "timeout": 30, "val_acc": 0.7719298245614035, "size": 38, "status": "SATISFIABLE", "time": 28.28841996192932}
+{"dataset": "tictactoe", "fold": 3, "k": 1, "method": "GenSel", "timeout": 30, "val_acc": 0.7012987012987013, "size": 1, "certified": true, "time": 23.552406787872314}
+{"dataset": "tictactoe", "fold": 3, "k": 1, "method": "DRL", "timeout": 30, "val_acc": 0.7012987012987013, "size": 1, "status": "OPTIMUM FOUND", "time": 3.7733066082000732}
+{"dataset": "tictactoe", "fold": 3, "k": 1, "method": "MLIC", "timeout": 30, "val_acc": 0.7727272727272727, "size": 3, "status": "OPTIMUM FOUND", "time": 13.454720497131348}
+{"dataset": "australian", "fold": 4, "k": 3, "method": "GenSel", "timeout": 30, "val_acc": 0.8288288288288288, "size": 12, "certified": true, "time": 21.216940879821777}
+{"dataset": "australian", "fold": 4, "k": 3, "method": "DRL", "timeout": 30, "val_acc": 0.8288288288288288, "size": 12, "status": "SATISFIABLE", "time": 28.320500373840332}
+{"dataset": "heart", "fold": 0, "k": 2, "method": "GenSel", "timeout": 30, "val_acc": 0.7755102040816326, "size": 9, "certified": true, "time": 21.459423780441284}
+{"dataset": "australian", "fold": 4, "k": 3, "method": "MLIC", "timeout": 30, "val_acc": 0.8378378378378378, "size": 14, "status": "SATISFIABLE", "time": 28.064624786376953}
+{"dataset": "heart", "fold": 0, "k": 2, "method": "DRL", "timeout": 30, "val_acc": 0.7959183673469388, "size": 9, "status": "SATISFIABLE", "time": 28.09594178199768}
+{"dataset": "heart", "fold": 0, "k": 2, "method": "MLIC", "timeout": 30, "val_acc": 0.7959183673469388, "size": 9, "status": "SATISFIABLE", "time": 28.027159929275513}
+{"dataset": "australian", "fold": 3, "k": 5, "method": "GenSel", "timeout": 30, "val_acc": 0.7927927927927928, "size": 27, "certified": true, "time": 22.070030212402344}
+{"dataset": "australian", "fold": 3, "k": 5, "method": "DRL", "timeout": 30, "val_acc": 0.7747747747747747, "size": 19, "status": "SATISFIABLE", "time": 28.554903745651245}
+{"dataset": "australian", "fold": 3, "k": 5, "method": "MLIC", "timeout": 30, "val_acc": 0.7567567567567568, "size": 22, "status": "SATISFIABLE", "time": 28.09391140937805}
+{"dataset": "ionosphere", "fold": 0, "k": 1, "method": "GenSel", "timeout": 30, "val_acc": 0.9107142857142857, "size": 4, "certified": true, "time": 22.149343490600586}
+{"dataset": "ionosphere", "fold": 0, "k": 1, "method": "DRL", "timeout": 30, "val_acc": 0.9107142857142857, "size": 4, "status": "OPTIMUM FOUND", "time": 1.0817289352416992}
+{"dataset": "ionosphere", "fold": 0, "k": 1, "method": "MLIC", "timeout": 30, "val_acc": 0.8392857142857143, "size": 1, "status": "OPTIMUM FOUND", "time": 12.807914018630981}
+{"dataset": "adult", "fold": 0, "k": 3, "method": "GenSel", "timeout": 30, "val_acc": 0.7796545105566218, "size": 17, "certified": false, "time": 29.935385942459106}
+{"dataset": "tictactoe", "fold": 1, "k": 1, "method": "GenSel", "timeout": 30, "val_acc": 0.6883116883116883, "size": 1, "certified": true, "time": 21.619645357131958}
+{"dataset": "tictactoe", "fold": 1, "k": 1, "method": "DRL", "timeout": 30, "val_acc": 0.6883116883116883, "size": 1, "status": "OPTIMUM FOUND", "time": 1.6856892108917236}
+{"dataset": "adult", "fold": 0, "k": 3, "method": "DRL", "timeout": 30, "error": "no model", "time": 28.807841777801514}
+{"dataset": "tictactoe", "fold": 1, "k": 1, "method": "MLIC", "timeout": 30, "val_acc": 0.7467532467532467, "size": 3, "status": "OPTIMUM FOUND", "time": 7.525732755661011}
+{"dataset": "adult", "fold": 0, "k": 3, "method": "MLIC", "timeout": 30, "val_acc": 0.7607165706973769, "size": 0, "status": "SATISFIABLE", "time": 28.26947045326233}
+{"dataset": "spambase", "fold": 3, "k": 8, "method": "GenSel", "timeout": 30, "val_acc": 0.649932157394844, "size": 1, "certified": false, "time": 29.78465175628662}
+{"dataset": "spambase", "fold": 3, "k": 8, "method": "DRL", "timeout": 30, "error": "no model", "time": 28.470552682876587}
+{"dataset": "spambase", "fold": 3, "k": 8, "method": "MLIC", "timeout": 30, "val_acc": 0.6051560379918589, "size": 0, "status": "SATISFIABLE", "time": 28.713678121566772}
+{"dataset": "adult", "fold": 0, "k": 8, "method": "GenSel", "timeout": 30, "val_acc": 0.7796545105566218, "size": 17, "certified": false, "time": 30.162555694580078}
+{"dataset": "adult", "fold": 0, "k": 8, "method": "DRL", "timeout": 30, "error": "encoding too large", "time": 59.416548013687134}
+{"dataset": "adult", "fold": 0, "k": 8, "method": "MLIC", "timeout": 30, "val_acc": 0.7607165706973769, "size": 0, "status": "SATISFIABLE", "time": 28.464012622833252}
+{"dataset": "heart", "fold": 2, "k": 3, "method": "GenSel", "timeout": 30, "val_acc": 0.6530612244897959, "size": 15, "certified": true, "time": 21.82146453857422}
+{"dataset": "ionosphere", "fold": 2, "k": 8, "method": "GenSel", "timeout": 30, "val_acc": 0.9298245614035088, "size": 18, "certified": true, "time": 24.065744161605835}
+{"dataset": "heart", "fold": 2, "k": 3, "method": "DRL", "timeout": 30, "val_acc": 0.6938775510204082, "size": 17, "status": "SATISFIABLE", "time": 28.16167449951172}
+{"dataset": "ionosphere", "fold": 2, "k": 8, "method": "DRL", "timeout": 30, "val_acc": 0.5789473684210527, "size": 33, "status": "SATISFIABLE", "time": 28.513378143310547}
+{"dataset": "heart", "fold": 2, "k": 3, "method": "MLIC", "timeout": 30, "val_acc": 0.7142857142857143, "size": 15, "status": "SATISFIABLE", "time": 28.040343523025513}
+{"dataset": "ionosphere", "fold": 2, "k": 8, "method": "MLIC", "timeout": 30, "val_acc": 0.7894736842105263, "size": 44, "status": "SATISFIABLE", "time": 29.085909605026245}
+{"dataset": "wdbc", "fold": 0, "k": 1, "method": "GenSel", "timeout": 30, "val_acc": 0.945054945054945, "size": 4, "certified": true, "time": 22.35829257965088}
+{"dataset": "wdbc", "fold": 0, "k": 1, "method": "DRL", "timeout": 30, "val_acc": 0.945054945054945, "size": 4, "status": "OPTIMUM FOUND", "time": 2.847954750061035}
+{"dataset": "wdbc", "fold": 0, "k": 1, "method": "MLIC", "timeout": 30, "val_acc": 0.9560439560439561, "size": 3, "status": "OPTIMUM FOUND", "time": 0.5706179141998291}
+{"dataset": "spambase", "fold": 1, "k": 1, "method": "GenSel", "timeout": 30, "val_acc": 0.6580732700135685, "size": 1, "certified": false, "time": 29.74980139732361}
+{"dataset": "spambase", "fold": 1, "k": 1, "method": "DRL", "timeout": 30, "val_acc": 0.6580732700135685, "size": 1, "status": "SATISFIABLE", "time": 28.96577763557434}
+{"dataset": "spambase", "fold": 1, "k": 1, "method": "MLIC", "timeout": 30, "val_acc": 0.6065128900949797, "size": 0, "status": "SATISFIABLE", "time": 28.39415717124939}
+{"dataset": "australian", "fold": 1, "k": 1, "method": "GenSel", "timeout": 30, "val_acc": 0.8828828828828829, "size": 2, "certified": true, "time": 22.50089979171753}
+{"dataset": "australian", "fold": 1, "k": 1, "method": "DRL", "timeout": 30, "val_acc": 0.8828828828828829, "size": 2, "status": "OPTIMUM FOUND", "time": 0.9720742702484131}
+{"dataset": "australian", "fold": 1, "k": 1, "method": "MLIC", "timeout": 30, "val_acc": 0.8558558558558559, "size": 2, "status": "OPTIMUM FOUND", "time": 0.592524528503418}
+{"dataset": "spambase", "fold": 1, "k": 8, "method": "GenSel", "timeout": 30, "val_acc": 0.6580732700135685, "size": 1, "certified": false, "time": 29.773308515548706}
+{"dataset": "tictactoe", "fold": 4, "k": 5, "method": "GenSel", "timeout": 30, "val_acc": 0.8961038961038961, "size": 13, "certified": true, "time": 21.60085701942444}
+{"dataset": "spambase", "fold": 1, "k": 8, "method": "DRL", "timeout": 30, "error": "no model", "time": 29.06760287284851}
+{"dataset": "tictactoe", "fold": 4, "k": 5, "method": "DRL", "timeout": 30, "val_acc": 0.7142857142857143, "size": 15, "status": "SATISFIABLE", "time": 28.24591374397278}
+{"dataset": "spambase", "fold": 1, "k": 8, "method": "MLIC", "timeout": 30, "val_acc": 0.6065128900949797, "size": 0, "status": "SATISFIABLE", "time": 28.57434868812561}
+{"dataset": "tictactoe", "fold": 4, "k": 5, "method": "MLIC", "timeout": 30, "val_acc": 0.7662337662337663, "size": 31, "status": "SATISFIABLE", "time": 28.061253786087036}
+{"dataset": "australian", "fold": 3, "k": 3, "method": "GenSel", "timeout": 30, "val_acc": 0.8018018018018018, "size": 14, "certified": true, "time": 21.064807891845703}
+{"dataset": "spambase", "fold": 2, "k": 5, "method": "GenSel", "timeout": 30, "val_acc": 0.8629579375848032, "size": 35, "certified": false, "time": 29.83302664756775}
+{"dataset": "australian", "fold": 3, "k": 3, "method": "DRL", "timeout": 30, "val_acc": 0.8198198198198198, "size": 12, "status": "SATISFIABLE", "time": 28.27596378326416}
+{"dataset": "spambase", "fold": 2, "k": 5, "method": "DRL", "timeout": 30, "val_acc": 0.40705563093622793, "size": 12, "status": "SATISFIABLE", "time": 29.94056224822998}
+{"dataset": "australian", "fold": 3, "k": 3, "method": "MLIC", "timeout": 30, "val_acc": 0.7837837837837838, "size": 11, "status": "SATISFIABLE", "time": 28.06674838066101}
+{"dataset": "iris", "fold": 4, "k": 8, "method": "GenSel", "timeout": 30, "val_acc": 1.0, "size": 11, "certified": true, "time": 1.1783549785614014}
+{"dataset": "spambase", "fold": 2, "k": 5, "method": "MLIC", "timeout": 30, "val_acc": 0.6065128900949797, "size": 0, "status": "SATISFIABLE", "time": 28.77061152458191}
+{"dataset": "iris", "fold": 4, "k": 8, "method": "DRL", "timeout": 30, "val_acc": 1.0, "size": 20, "status": "OPTIMUM FOUND", "time": 15.102261781692505}
+{"dataset": "iris", "fold": 4, "k": 8, "method": "MLIC", "timeout": 30, "val_acc": 1.0, "size": 11, "status": "OPTIMUM FOUND", "time": 0.5634746551513672}
+{"dataset": "wdbc", "fold": 1, "k": 3, "method": "GenSel", "timeout": 30, "val_acc": 0.8901098901098901, "size": 11, "certified": true, "time": 22.464256763458252}
+{"dataset": "wdbc", "fold": 1, "k": 3, "method": "DRL", "timeout": 30, "val_acc": 0.9010989010989011, "size": 17, "status": "SATISFIABLE", "time": 28.222820281982422}
+{"dataset": "wdbc", "fold": 1, "k": 3, "method": "MLIC", "timeout": 30, "val_acc": 0.9120879120879121, "size": 20, "status": "SATISFIABLE", "time": 28.245344877243042}
+{"dataset": "iris", "fold": 1, "k": 1, "method": "GenSel", "timeout": 30, "val_acc": 1.0, "size": 4, "certified": true, "time": 0.4545471668243408}
+{"dataset": "iris", "fold": 1, "k": 1, "method": "DRL", "timeout": 30, "val_acc": 0.9583333333333334, "size": 4, "status": "OPTIMUM FOUND", "time": 0.0371708869934082}
+{"dataset": "iris", "fold": 1, "k": 1, "method": "MLIC", "timeout": 30, "val_acc": 0.6666666666666666, "size": 1, "status": "OPTIMUM FOUND", "time": 0.0236358642578125}
+{"dataset": "ionosphere", "fold": 3, "k": 3, "method": "GenSel", "timeout": 30, "val_acc": 0.9473684210526315, "size": 15, "certified": true, "time": 21.19795536994934}
+{"dataset": "ionosphere", "fold": 3, "k": 3, "method": "DRL", "timeout": 30, "val_acc": 0.9649122807017544, "size": 25, "status": "SATISFIABLE", "time": 28.53533935546875}
+{"dataset": "ionosphere", "fold": 3, "k": 3, "method": "MLIC", "timeout": 30, "val_acc": 0.3508771929824561, "size": 0, "status": "SATISFIABLE", "time": 28.729280948638916}
+{"dataset": "adult", "fold": 1, "k": 2, "method": "GenSel", "timeout": 30, "val_acc": 0.7864363403710812, "size": 28, "certified": false, "time": 29.996646404266357}
+{"dataset": "australian", "fold": 4, "k": 2, "method": "GenSel", "timeout": 30, "val_acc": 0.8378378378378378, "size": 6, "certified": true, "time": 21.765266180038452}
+{"dataset": "adult", "fold": 1, "k": 2, "method": "DRL", "timeout": 30, "val_acc": 0.23928342930262317, "size": 2, "status": "SATISFIABLE", "time": 28.719171047210693}
+{"dataset": "australian", "fold": 4, "k": 2, "method": "DRL", "timeout": 30, "val_acc": 0.8108108108108109, "size": 8, "status": "SATISFIABLE", "time": 28.185364961624146}
+{"dataset": "adult", "fold": 1, "k": 2, "method": "MLIC", "timeout": 30, "val_acc": 0.7607165706973769, "size": 0, "status": "SATISFIABLE", "time": 28.367756366729736}
+{"dataset": "australian", "fold": 4, "k": 2, "method": "MLIC", "timeout": 30, "val_acc": 0.8198198198198198, "size": 9, "status": "SATISFIABLE", "time": 28.04911160469055}
+{"dataset": "heart", "fold": 2, "k": 2, "method": "GenSel", "timeout": 30, "val_acc": 0.7551020408163265, "size": 9, "certified": true, "time": 22.452960968017578}
+{"dataset": "heart", "fold": 2, "k": 2, "method": "DRL", "timeout": 30, "val_acc": 0.6326530612244898, "size": 10, "status": "SATISFIABLE", "time": 28.13549566268921}
+{"dataset": "heart", "fold": 2, "k": 2, "method": "MLIC", "timeout": 30, "val_acc": 0.8571428571428571, "size": 8, "status": "SATISFIABLE", "time": 28.03683376312256}
+{"dataset": "adult", "fold": 0, "k": 2, "method": "GenSel", "timeout": 30, "val_acc": 0.7796545105566218, "size": 17, "certified": false, "time": 30.044591426849365}
+{"dataset": "ionosphere", "fold": 4, "k": 5, "method": "GenSel", "timeout": 30, "val_acc": 0.8596491228070176, "size": 19, "certified": true, "time": 22.30885910987854}
+{"dataset": "adult", "fold": 0, "k": 2, "method": "DRL", "timeout": 30, "val_acc": 0.23928342930262317, "size": 2, "status": "SATISFIABLE", "time": 29.073246955871582}
+{"dataset": "ionosphere", "fold": 4, "k": 5, "method": "DRL", "timeout": 30, "val_acc": 0.8421052631578947, "size": 42, "status": "SATISFIABLE", "time": 29.07866096496582}
+{"dataset": "adult", "fold": 0, "k": 2, "method": "MLIC", "timeout": 30, "val_acc": 0.7607165706973769, "size": 0, "status": "SATISFIABLE", "time": 28.5541832447052}
+{"dataset": "ionosphere", "fold": 4, "k": 5, "method": "MLIC", "timeout": 30, "val_acc": 0.3508771929824561, "size": 0, "status": "SATISFIABLE", "time": 29.174235582351685}
+{"dataset": "iris", "fold": 2, "k": 5, "method": "GenSel", "timeout": 30, "val_acc": 0.9583333333333334, "size": 15, "certified": true, "time": 0.9240167140960693}
+{"dataset": "iris", "fold": 2, "k": 5, "method": "DRL", "timeout": 30, "val_acc": 0.9583333333333334, "size": 15, "status": "OPTIMUM FOUND", "time": 0.8201358318328857}
+{"dataset": "iris", "fold": 2, "k": 5, "method": "MLIC", "timeout": 30, "val_acc": 1.0, "size": 9, "status": "OPTIMUM FOUND", "time": 0.6869223117828369}
+{"dataset": "australian", "fold": 1, "k": 3, "method": "GenSel", "timeout": 30, "val_acc": 0.8828828828828829, "size": 10, "certified": true, "time": 23.2801616191864}
+{"dataset": "tictactoe", "fold": 3, "k": 2, "method": "GenSel", "timeout": 30, "val_acc": 0.7337662337662337, "size": 5, "certified": true, "time": 22.47982430458069}
+{"dataset": "australian", "fold": 1, "k": 3, "method": "DRL", "timeout": 30, "val_acc": 0.8558558558558559, "size": 14, "status": "SATISFIABLE", "time": 28.2622013092041}
+{"dataset": "tictactoe", "fold": 3, "k": 2, "method": "DRL", "timeout": 30, "val_acc": 0.7272727272727273, "size": 5, "status": "SATISFIABLE", "time": 28.10920023918152}
+{"dataset": "australian", "fold": 1, "k": 3, "method": "MLIC", "timeout": 30, "val_acc": 0.8738738738738738, "size": 12, "status": "SATISFIABLE", "time": 28.06223773956299}
+{"dataset": "tictactoe", "fold": 3, "k": 2, "method": "MLIC", "timeout": 30, "val_acc": 0.6623376623376623, "size": 10, "status": "SATISFIABLE", "time": 28.03878617286682}
+{"dataset": "heart", "fold": 4, "k": 3, "method": "GenSel", "timeout": 30, "val_acc": 0.7959183673469388, "size": 15, "certified": true, "time": 23.31657385826111}
+{"dataset": "magic", "fold": 0, "k": 1, "method": "GenSel", "timeout": 30, "val_acc": 0.6869250985545335, "size": 5, "certified": false, "time": 30.151204824447632}
+{"dataset": "heart", "fold": 4, "k": 3, "method": "DRL", "timeout": 30, "val_acc": 0.7551020408163265, "size": 16, "status": "SATISFIABLE", "time": 28.148732662200928}
+{"dataset": "magic", "fold": 0, "k": 1, "method": "DRL", "timeout": 30, "val_acc": 0.385676741130092, "size": 1, "status": "SATISFIABLE", "time": 28.64943838119507}
+{"dataset": "heart", "fold": 4, "k": 3, "method": "MLIC", "timeout": 30, "val_acc": 0.7755102040816326, "size": 18, "status": "SATISFIABLE", "time": 28.04243278503418}
+{"dataset": "magic", "fold": 0, "k": 1, "method": "MLIC", "timeout": 30, "val_acc": 0.6484888304862023, "size": 0, "status": "SATISFIABLE", "time": 29.012115478515625}
+{"dataset": "wdbc", "fold": 1, "k": 2, "method": "GenSel", "timeout": 30, "val_acc": 0.9120879120879121, "size": 11, "certified": true, "time": 22.022996187210083}
+{"dataset": "adult", "fold": 1, "k": 8, "method": "GenSel", "timeout": 30, "val_acc": 0.7864363403710812, "size": 28, "certified": false, "time": 29.95040774345398}
+{"dataset": "wdbc", "fold": 1, "k": 2, "method": "DRL", "timeout": 30, "val_acc": 0.9230769230769231, "size": 10, "status": "SATISFIABLE", "time": 28.843621730804443}
+{"dataset": "wdbc", "fold": 1, "k": 2, "method": "MLIC", "timeout": 30, "val_acc": 0.9010989010989011, "size": 8, "status": "SATISFIABLE", "time": 28.175310850143433}
+{"dataset": "australian", "fold": 3, "k": 1, "method": "GenSel", "timeout": 30, "val_acc": 0.7657657657657657, "size": 2, "certified": true, "time": 20.727145195007324}
+{"dataset": "australian", "fold": 3, "k": 1, "method": "DRL", "timeout": 30, "val_acc": 0.7657657657657657, "size": 2, "status": "OPTIMUM FOUND", "time": 1.1101140975952148}
+{"dataset": "australian", "fold": 3, "k": 1, "method": "MLIC", "timeout": 30, "val_acc": 0.7477477477477478, "size": 2, "status": "OPTIMUM FOUND", "time": 0.7952947616577148}
+{"dataset": "adult", "fold": 1, "k": 8, "method": "DRL", "timeout": 30, "error": "no model", "time": 77.30177927017212}
+{"dataset": "adult", "fold": 1, "k": 8, "method": "MLIC", "timeout": 30, "val_acc": 0.7607165706973769, "size": 0, "status": "SATISFIABLE", "time": 28.780763387680054}
+{"dataset": "heart", "fold": 3, "k": 5, "method": "GenSel", "timeout": 30, "val_acc": 0.8367346938775511, "size": 20, "certified": true, "time": 20.994118213653564}
+{"dataset": "heart", "fold": 3, "k": 5, "method": "DRL", "timeout": 30, "val_acc": 0.7142857142857143, "size": 25, "status": "SATISFIABLE", "time": 28.240597248077393}
+{"dataset": "adult", "fold": 1, "k": 3, "method": "GenSel", "timeout": 30, "val_acc": 0.7864363403710812, "size": 28, "certified": false, "time": 29.700927734375}
+{"dataset": "heart", "fold": 3, "k": 5, "method": "MLIC", "timeout": 30, "val_acc": 0.7959183673469388, "size": 32, "status": "SATISFIABLE", "time": 28.06089472770691}
+{"dataset": "adult", "fold": 1, "k": 3, "method": "DRL", "timeout": 30, "error": "no model", "time": 30.017503023147583}
+{"dataset": "wdbc", "fold": 3, "k": 8, "method": "GenSel", "timeout": 30, "val_acc": 0.967032967032967, "size": 13, "certified": true, "time": 22.223754167556763}
+{"dataset": "adult", "fold": 1, "k": 3, "method": "MLIC", "timeout": 30, "val_acc": 0.7607165706973769, "size": 0, "status": "SATISFIABLE", "time": 28.265522480010986}
+{"dataset": "iris", "fold": 3, "k": 3, "method": "GenSel", "timeout": 30, "val_acc": 1.0, "size": 11, "certified": true, "time": 1.151531457901001}
+{"dataset": "wdbc", "fold": 3, "k": 8, "method": "DRL", "timeout": 30, "val_acc": 0.3626373626373626, "size": 37, "status": "SATISFIABLE", "time": 28.592924118041992}
+{"dataset": "iris", "fold": 3, "k": 3, "method": "DRL", "timeout": 30, "val_acc": 1.0, "size": 11, "status": "OPTIMUM FOUND", "time": 0.14006829261779785}
+{"dataset": "iris", "fold": 3, "k": 3, "method": "MLIC", "timeout": 30, "val_acc": 1.0, "size": 4, "status": "OPTIMUM FOUND", "time": 0.09490513801574707}
+{"dataset": "wdbc", "fold": 3, "k": 8, "method": "MLIC", "timeout": 30, "val_acc": 0.945054945054945, "size": 45, "status": "SATISFIABLE", "time": 28.68567728996277}
+{"dataset": "spambase", "fold": 2, "k": 8, "method": "GenSel", "timeout": 30, "val_acc": 0.8629579375848032, "size": 35, "certified": false, "time": 29.769565105438232}
+{"dataset": "wdbc", "fold": 3, "k": 2, "method": "GenSel", "timeout": 30, "val_acc": 0.9340659340659341, "size": 8, "certified": true, "time": 21.769163131713867}
+{"dataset": "spambase", "fold": 2, "k": 8, "method": "DRL", "timeout": 30, "val_acc": 0.3948439620081411, "size": 22, "status": "SATISFIABLE", "time": 29.94020175933838}
+{"dataset": "wdbc", "fold": 3, "k": 2, "method": "DRL", "timeout": 30, "val_acc": 0.9340659340659341, "size": 13, "status": "SATISFIABLE", "time": 28.929563522338867}
+{"dataset": "spambase", "fold": 2, "k": 8, "method": "MLIC", "timeout": 30, "val_acc": 0.6065128900949797, "size": 0, "status": "SATISFIABLE", "time": 28.651715517044067}
+{"dataset": "iris", "fold": 0, "k": 5, "method": "GenSel", "timeout": 30, "val_acc": 0.9583333333333334, "size": 10, "certified": true, "time": 1.0737977027893066}
+{"dataset": "iris", "fold": 0, "k": 5, "method": "DRL", "timeout": 30, "val_acc": 0.875, "size": 13, "status": "OPTIMUM FOUND", "time": 1.8957383632659912}
+{"dataset": "iris", "fold": 0, "k": 5, "method": "MLIC", "timeout": 30, "val_acc": 0.9583333333333334, "size": 7, "status": "OPTIMUM FOUND", "time": 0.1826779842376709}
+{"dataset": "wdbc", "fold": 3, "k": 2, "method": "MLIC", "timeout": 30, "val_acc": 0.967032967032967, "size": 9, "status": "SATISFIABLE", "time": 28.184160709381104}
+{"dataset": "australian", "fold": 2, "k": 1, "method": "GenSel", "timeout": 30, "val_acc": 0.8558558558558559, "size": 3, "certified": true, "time": 20.89478302001953}
+{"dataset": "australian", "fold": 2, "k": 1, "method": "DRL", "timeout": 30, "val_acc": 0.8558558558558559, "size": 3, "status": "OPTIMUM FOUND", "time": 1.3315017223358154}
+{"dataset": "australian", "fold": 2, "k": 1, "method": "MLIC", "timeout": 30, "val_acc": 0.8648648648648649, "size": 1, "status": "OPTIMUM FOUND", "time": 1.0234112739562988}
+{"dataset": "iris", "fold": 3, "k": 1, "method": "GenSel", "timeout": 30, "val_acc": 0.9583333333333334, "size": 4, "certified": true, "time": 0.5835785865783691}
+{"dataset": "iris", "fold": 3, "k": 1, "method": "DRL", "timeout": 30, "val_acc": 0.9583333333333334, "size": 4, "status": "OPTIMUM FOUND", "time": 0.03504157066345215}
+{"dataset": "iris", "fold": 3, "k": 1, "method": "MLIC", "timeout": 30, "val_acc": 0.5416666666666666, "size": 1, "status": "OPTIMUM FOUND", "time": 0.03096151351928711}
+{"dataset": "adult", "fold": 3, "k": 8, "method": "GenSel", "timeout": 30, "val_acc": 0.800255918106206, "size": 23, "certified": false, "time": 29.652313470840454}
+{"dataset": "adult", "fold": 3, "k": 8, "method": "DRL", "timeout": 30, "error": "no model", "time": 78.62062621116638}
+{"dataset": "adult", "fold": 3, "k": 8, "method": "MLIC", "timeout": 30, "val_acc": 0.7607165706973769, "size": 0, "status": "SATISFIABLE", "time": 28.936718225479126}
+{"dataset": "heart", "fold": 0, "k": 1, "method": "GenSel", "timeout": 30, "val_acc": 0.7142857142857143, "size": 4, "certified": true, "time": 21.42303466796875}
+{"dataset": "heart", "fold": 0, "k": 1, "method": "DRL", "timeout": 30, "val_acc": 0.7142857142857143, "size": 4, "status": "OPTIMUM FOUND", "time": 0.9544506072998047}
+{"dataset": "heart", "fold": 0, "k": 1, "method": "MLIC", "timeout": 30, "val_acc": 0.6938775510204082, "size": 4, "status": "OPTIMUM FOUND", "time": 1.5879478454589844}
+{"dataset": "adult", "fold": 3, "k": 2, "method": "GenSel", "timeout": 30, "val_acc": 0.800255918106206, "size": 23, "certified": false, "time": 29.570541381835938}
+{"dataset": "wdbc", "fold": 3, "k": 5, "method": "GenSel", "timeout": 30, "val_acc": 0.967032967032967, "size": 15, "certified": true, "time": 24.495264768600464}
+{"dataset": "adult", "fold": 3, "k": 2, "method": "DRL", "timeout": 30, "val_acc": 0.23928342930262317, "size": 2, "status": "SATISFIABLE", "time": 29.035808086395264}
+{"dataset": "wdbc", "fold": 3, "k": 5, "method": "DRL", "timeout": 30, "val_acc": 0.6153846153846154, "size": 31, "status": "SATISFIABLE", "time": 28.94393038749695}
+{"dataset": "adult", "fold": 3, "k": 2, "method": "MLIC", "timeout": 30, "val_acc": 0.7607165706973769, "size": 0, "status": "SATISFIABLE", "time": 28.229340076446533}
+{"dataset": "wdbc", "fold": 3, "k": 5, "method": "MLIC", "timeout": 30, "val_acc": 0.9340659340659341, "size": 25, "status": "SATISFIABLE", "time": 29.247272491455078}
+{"dataset": "australian", "fold": 0, "k": 2, "method": "GenSel", "timeout": 30, "val_acc": 0.9009009009009009, "size": 9, "certified": true, "time": 21.93959379196167}
+{"dataset": "australian", "fold": 0, "k": 2, "method": "DRL", "timeout": 30, "val_acc": 0.9009009009009009, "size": 8, "status": "SATISFIABLE", "time": 28.174975633621216}
+{"dataset": "australian", "fold": 0, "k": 2, "method": "MLIC", "timeout": 30, "val_acc": 0.8918918918918919, "size": 7, "status": "SATISFIABLE", "time": 28.07546377182007}
+{"dataset": "wdbc", "fold": 4, "k": 1, "method": "GenSel", "timeout": 30, "val_acc": 0.8369565217391305, "size": 7, "certified": true, "time": 21.68330216407776}
+{"dataset": "wdbc", "fold": 4, "k": 1, "method": "DRL", "timeout": 30, "val_acc": 0.8369565217391305, "size": 7, "status": "OPTIMUM FOUND", "time": 2.8213961124420166}
+{"dataset": "wdbc", "fold": 4, "k": 1, "method": "MLIC", "timeout": 30, "val_acc": 0.9239130434782609, "size": 3, "status": "OPTIMUM FOUND", "time": 0.8072104454040527}
+{"dataset": "australian", "fold": 4, "k": 8, "method": "GenSel", "timeout": 30, "val_acc": 0.8198198198198198, "size": 37, "certified": true, "time": 22.977582454681396}
+{"dataset": "australian", "fold": 4, "k": 8, "method": "DRL", "timeout": 30, "val_acc": 0.6936936936936937, "size": 40, "status": "SATISFIABLE", "time": 28.715120792388916}
+{"dataset": "australian", "fold": 4, "k": 8, "method": "MLIC", "timeout": 30, "val_acc": 0.7837837837837838, "size": 45, "status": "SATISFIABLE", "time": 28.17988395690918}
+{"dataset": "tictactoe", "fold": 0, "k": 2, "method": "GenSel", "timeout": 30, "val_acc": 0.7402597402597403, "size": 5, "certified": true, "time": 22.897610664367676}
+{"dataset": "tictactoe", "fold": 0, "k": 2, "method": "DRL", "timeout": 30, "val_acc": 0.7207792207792207, "size": 6, "status": "SATISFIABLE", "time": 28.148919343948364}
+{"dataset": "iris", "fold": 3, "k": 2, "method": "GenSel", "timeout": 30, "val_acc": 1.0, "size": 7, "certified": true, "time": 0.8445894718170166}
+{"dataset": "iris", "fold": 3, "k": 2, "method": "DRL", "timeout": 30, "val_acc": 1.0, "size": 7, "status": "OPTIMUM FOUND", "time": 0.12158012390136719}
+{"dataset": "iris", "fold": 3, "k": 2, "method": "MLIC", "timeout": 30, "val_acc": 0.9583333333333334, "size": 2, "status": "OPTIMUM FOUND", "time": 0.06537652015686035}
+{"dataset": "tictactoe", "fold": 0, "k": 2, "method": "MLIC", "timeout": 30, "val_acc": 0.6883116883116883, "size": 11, "status": "SATISFIABLE", "time": 28.035417795181274}
+{"dataset": "iris", "fold": 3, "k": 5, "method": "GenSel", "timeout": 30, "val_acc": 1.0, "size": 11, "certified": true, "time": 1.1600615978240967}
+{"dataset": "iris", "fold": 3, "k": 5, "method": "DRL", "timeout": 30, "val_acc": 1.0, "size": 15, "status": "OPTIMUM FOUND", "time": 2.901926040649414}
+{"dataset": "iris", "fold": 3, "k": 5, "method": "MLIC", "timeout": 30, "val_acc": 1.0, "size": 6, "status": "OPTIMUM FOUND", "time": 0.2955663204193115}
+{"dataset": "iris", "fold": 4, "k": 1, "method": "GenSel", "timeout": 30, "val_acc": 1.0, "size": 4, "certified": true, "time": 0.9869194030761719}
+{"dataset": "iris", "fold": 4, "k": 1, "method": "DRL", "timeout": 30, "val_acc": 1.0, "size": 4, "status": "OPTIMUM FOUND", "time": 0.03602409362792969}
+{"dataset": "iris", "fold": 4, "k": 1, "method": "MLIC", "timeout": 30, "val_acc": 0.6666666666666666, "size": 1, "status": "OPTIMUM FOUND", "time": 0.03232002258300781}
+{"dataset": "tictactoe", "fold": 0, "k": 5, "method": "GenSel", "timeout": 30, "val_acc": 0.9285714285714286, "size": 13, "certified": false, "time": 29.255952835083008}
+{"dataset": "tictactoe", "fold": 1, "k": 3, "method": "GenSel", "timeout": 30, "val_acc": 0.7662337662337663, "size": 8, "certified": true, "time": 21.5882785320282}
+{"dataset": "tictactoe", "fold": 0, "k": 5, "method": "DRL", "timeout": 30, "val_acc": 0.5974025974025974, "size": 22, "status": "SATISFIABLE", "time": 28.242300987243652}
+{"dataset": "tictactoe", "fold": 1, "k": 3, "method": "DRL", "timeout": 30, "val_acc": 0.7467532467532467, "size": 8, "status": "SATISFIABLE", "time": 28.149977445602417}
+{"dataset": "tictactoe", "fold": 0, "k": 5, "method": "MLIC", "timeout": 30, "val_acc": 0.8376623376623377, "size": 30, "status": "SATISFIABLE", "time": 28.06755018234253}
+{"dataset": "iris", "fold": 4, "k": 3, "method": "GenSel", "timeout": 30, "val_acc": 1.0, "size": 11, "certified": true, "time": 1.4440584182739258}
+{"dataset": "iris", "fold": 4, "k": 3, "method": "DRL", "timeout": 30, "val_acc": 1.0, "size": 11, "status": "OPTIMUM FOUND", "time": 0.2507493495941162}
+{"dataset": "iris", "fold": 4, "k": 3, "method": "MLIC", "timeout": 30, "val_acc": 1.0, "size": 5, "status": "OPTIMUM FOUND", "time": 0.12911677360534668}
+{"dataset": "tictactoe", "fold": 1, "k": 3, "method": "MLIC", "timeout": 30, "val_acc": 0.7662337662337663, "size": 16, "status": "SATISFIABLE", "time": 28.05102777481079}
+{"dataset": "tictactoe", "fold": 1, "k": 8, "method": "GenSel", "timeout": 30, "val_acc": 0.9155844155844156, "size": 13, "certified": true, "time": 21.784043073654175}
+{"dataset": "tictactoe", "fold": 1, "k": 8, "method": "DRL", "timeout": 30, "val_acc": 1.0, "size": 24, "status": "OPTIMUM FOUND", "time": 18.1669602394104}
+{"dataset": "tictactoe", "fold": 2, "k": 2, "method": "GenSel", "timeout": 30, "val_acc": 0.7467532467532467, "size": 4, "certified": true, "time": 22.318991661071777}
+{"dataset": "tictactoe", "fold": 1, "k": 8, "method": "MLIC", "timeout": 30, "val_acc": 0.8896103896103896, "size": 49, "status": "SATISFIABLE", "time": 28.083614587783813}
+{"dataset": "tictactoe", "fold": 2, "k": 2, "method": "DRL", "timeout": 30, "val_acc": 0.7597402597402597, "size": 5, "status": "SATISFIABLE", "time": 28.153663396835327}
+{"dataset": "heart", "fold": 0, "k": 5, "method": "GenSel", "timeout": 30, "val_acc": 0.6938775510204082, "size": 23, "certified": true, "time": 20.70956587791443}
+{"dataset": "tictactoe", "fold": 2, "k": 2, "method": "MLIC", "timeout": 30, "val_acc": 0.7402597402597403, "size": 10, "status": "SATISFIABLE", "time": 28.064101696014404}
+{"dataset": "heart", "fold": 0, "k": 5, "method": "DRL", "timeout": 30, "val_acc": 0.6938775510204082, "size": 35, "status": "SATISFIABLE", "time": 28.328027725219727}
+{"dataset": "heart", "fold": 0, "k": 5, "method": "MLIC", "timeout": 30, "val_acc": 0.7755102040816326, "size": 30, "status": "SATISFIABLE", "time": 28.055978775024414}
+{"dataset": "heart", "fold": 1, "k": 1, "method": "GenSel", "timeout": 30, "val_acc": 0.8163265306122449, "size": 4, "certified": true, "time": 22.0726101398468}
+{"dataset": "heart", "fold": 1, "k": 1, "method": "DRL", "timeout": 30, "val_acc": 0.8163265306122449, "size": 4, "status": "OPTIMUM FOUND", "time": 1.4359900951385498}
+{"dataset": "heart", "fold": 1, "k": 1, "method": "MLIC", "timeout": 30, "val_acc": 0.7142857142857143, "size": 4, "status": "OPTIMUM FOUND", "time": 0.8556020259857178}
+{"dataset": "heart", "fold": 1, "k": 3, "method": "GenSel", "timeout": 30, "val_acc": 0.8163265306122449, "size": 10, "certified": true, "time": 21.30414891242981}
+{"dataset": "heart", "fold": 1, "k": 3, "method": "DRL", "timeout": 30, "val_acc": 0.6530612244897959, "size": 17, "status": "SATISFIABLE", "time": 28.160665273666382}
+{"dataset": "heart", "fold": 1, "k": 3, "method": "MLIC", "timeout": 30, "val_acc": 0.7551020408163265, "size": 13, "status": "SATISFIABLE", "time": 28.04546022415161}
+{"dataset": "heart", "fold": 1, "k": 8, "method": "GenSel", "timeout": 30, "val_acc": 0.8979591836734694, "size": 35, "certified": true, "time": 22.532474756240845}
+{"dataset": "tictactoe", "fold": 3, "k": 8, "method": "GenSel", "timeout": 30, "val_acc": 0.9285714285714286, "size": 13, "certified": true, "time": 27.829694986343384}
+{"dataset": "tictactoe", "fold": 3, "k": 8, "method": "DRL", "timeout": 30, "val_acc": 1.0, "size": 24, "status": "OPTIMUM FOUND", "time": 23.833221673965454}
+{"dataset": "heart", "fold": 1, "k": 8, "method": "DRL", "timeout": 30, "val_acc": 0.7346938775510204, "size": 54, "status": "SATISFIABLE", "time": 28.387481451034546}
+{"dataset": "tictactoe", "fold": 3, "k": 8, "method": "MLIC", "timeout": 30, "val_acc": 0.8766233766233766, "size": 47, "status": "SATISFIABLE", "time": 28.085077047348022}
+{"dataset": "heart", "fold": 1, "k": 8, "method": "MLIC", "timeout": 30, "val_acc": 0.8571428571428571, "size": 55, "status": "SATISFIABLE", "time": 28.10090970993042}
+{"dataset": "tictactoe", "fold": 4, "k": 2, "method": "GenSel", "timeout": 30, "val_acc": 0.7467532467532467, "size": 4, "certified": true, "time": 22.754551649093628}
+{"dataset": "tictactoe", "fold": 4, "k": 2, "method": "DRL", "timeout": 30, "val_acc": 0.7597402597402597, "size": 5, "status": "SATISFIABLE", "time": 28.103469610214233}
+{"dataset": "tictactoe", "fold": 4, "k": 2, "method": "MLIC", "timeout": 30, "val_acc": 0.7402597402597403, "size": 11, "status": "SATISFIABLE", "time": 28.03478217124939}
+{"dataset": "heart", "fold": 2, "k": 5, "method": "GenSel", "timeout": 30, "val_acc": 0.673469387755102, "size": 24, "certified": true, "time": 21.731937885284424}
+{"dataset": "heart", "fold": 2, "k": 5, "method": "DRL", "timeout": 30, "val_acc": 0.7346938775510204, "size": 33, "status": "SATISFIABLE", "time": 28.23094415664673}
+{"dataset": "heart", "fold": 2, "k": 5, "method": "MLIC", "timeout": 30, "val_acc": 0.7551020408163265, "size": 33, "status": "SATISFIABLE", "time": 28.0587260723114}
+{"dataset": "heart", "fold": 3, "k": 1, "method": "GenSel", "timeout": 30, "val_acc": 0.6530612244897959, "size": 1, "certified": true, "time": 21.71934962272644}
+{"dataset": "heart", "fold": 3, "k": 1, "method": "DRL", "timeout": 30, "val_acc": 0.6530612244897959, "size": 1, "status": "OPTIMUM FOUND", "time": 1.331554889678955}
+{"dataset": "heart", "fold": 3, "k": 1, "method": "MLIC", "timeout": 30, "val_acc": 0.7959183673469388, "size": 4, "status": "OPTIMUM FOUND", "time": 0.3657195568084717}
+{"dataset": "spambase", "fold": 0, "k": 1, "method": "GenSel", "timeout": 30, "val_acc": 0.8274456521739131, "size": 9, "certified": false, "time": 29.835437536239624}
+{"dataset": "spambase", "fold": 0, "k": 1, "method": "DRL", "timeout": 30, "val_acc": 0.626358695652174, "size": 1, "status": "SATISFIABLE", "time": 28.73641324043274}
+{"dataset": "spambase", "fold": 0, "k": 1, "method": "MLIC", "timeout": 30, "val_acc": 0.6059782608695652, "size": 0, "status": "SATISFIABLE", "time": 28.370503187179565}
+{"dataset": "heart", "fold": 3, "k": 3, "method": "GenSel", "timeout": 30, "val_acc": 0.7551020408163265, "size": 14, "certified": true, "time": 21.31363844871521}
+{"dataset": "heart", "fold": 3, "k": 3, "method": "DRL", "timeout": 30, "val_acc": 0.7551020408163265, "size": 13, "status": "SATISFIABLE", "time": 28.14379858970642}
+{"dataset": "heart", "fold": 3, "k": 3, "method": "MLIC", "timeout": 30, "val_acc": 0.8775510204081632, "size": 13, "status": "SATISFIABLE", "time": 28.05367636680603}
+{"dataset": "spambase", "fold": 0, "k": 8, "method": "GenSel", "timeout": 30, "val_acc": 0.8668478260869565, "size": 24, "certified": false, "time": 29.957205057144165}
+{"dataset": "heart", "fold": 3, "k": 8, "method": "GenSel", "timeout": 30, "val_acc": 0.7142857142857143, "size": 37, "certified": true, "time": 22.07436490058899}
+{"dataset": "spambase", "fold": 0, "k": 8, "method": "DRL", "timeout": 30, "error": "no model", "time": 29.166356563568115}
+{"dataset": "heart", "fold": 3, "k": 8, "method": "DRL", "timeout": 30, "val_acc": 0.7551020408163265, "size": 50, "status": "SATISFIABLE", "time": 28.363444805145264}
+{"dataset": "spambase", "fold": 0, "k": 8, "method": "MLIC", "timeout": 30, "val_acc": 0.6059782608695652, "size": 0, "status": "SATISFIABLE", "time": 28.6345796585083}
+{"dataset": "heart", "fold": 3, "k": 8, "method": "MLIC", "timeout": 30, "val_acc": 0.8367346938775511, "size": 63, "status": "SATISFIABLE", "time": 28.089601278305054}
+{"dataset": "spambase", "fold": 1, "k": 2, "method": "GenSel", "timeout": 30, "val_acc": 0.6580732700135685, "size": 1, "certified": false, "time": 29.83034634590149}
+{"dataset": "heart", "fold": 4, "k": 2, "method": "GenSel", "timeout": 30, "val_acc": 0.7959183673469388, "size": 8, "certified": true, "time": 23.187286615371704}
+{"dataset": "spambase", "fold": 1, "k": 2, "method": "DRL", "timeout": 30, "val_acc": 0.39348710990502034, "size": 2, "status": "SATISFIABLE", "time": 29.263617515563965}
+{"dataset": "heart", "fold": 4, "k": 2, "method": "DRL", "timeout": 30, "val_acc": 0.7142857142857143, "size": 11, "status": "SATISFIABLE", "time": 28.102572441101074}
+{"dataset": "spambase", "fold": 1, "k": 2, "method": "MLIC", "timeout": 30, "val_acc": 0.6065128900949797, "size": 0, "status": "SATISFIABLE", "time": 28.69589114189148}
+{"dataset": "heart", "fold": 4, "k": 2, "method": "MLIC", "timeout": 30, "val_acc": 0.7755102040816326, "size": 11, "status": "SATISFIABLE", "time": 28.02794599533081}
+{"dataset": "heart", "fold": 4, "k": 5, "method": "GenSel", "timeout": 30, "val_acc": 0.7346938775510204, "size": 20, "certified": true, "time": 21.43760347366333}
+{"dataset": "spambase", "fold": 1, "k": 5, "method": "GenSel", "timeout": 30, "val_acc": 0.6580732700135685, "size": 1, "certified": false, "time": 29.751397132873535}
+{"dataset": "heart", "fold": 4, "k": 5, "method": "DRL", "timeout": 30, "val_acc": 0.6122448979591837, "size": 24, "status": "SATISFIABLE", "time": 28.226044178009033}
+{"dataset": "spambase", "fold": 1, "k": 5, "method": "DRL", "timeout": 30, "error": "no model", "time": 28.138778924942017}
+{"dataset": "heart", "fold": 4, "k": 5, "method": "MLIC", "timeout": 30, "val_acc": 0.7346938775510204, "size": 31, "status": "SATISFIABLE", "time": 28.061232805252075}
+{"dataset": "spambase", "fold": 1, "k": 5, "method": "MLIC", "timeout": 30, "val_acc": 0.6065128900949797, "size": 0, "status": "SATISFIABLE", "time": 28.5522882938385}
+{"dataset": "spambase", "fold": 2, "k": 3, "method": "GenSel", "timeout": 30, "val_acc": 0.8629579375848032, "size": 35, "certified": false, "time": 29.82011842727661}
+{"dataset": "spambase", "fold": 2, "k": 3, "method": "DRL", "timeout": 30, "val_acc": 0.43283582089552236, "size": 9, "status": "SATISFIABLE", "time": 29.315666675567627}
+{"dataset": "spambase", "fold": 2, "k": 3, "method": "MLIC", "timeout": 30, "val_acc": 0.6065128900949797, "size": 0, "status": "SATISFIABLE", "time": 29.020391941070557}
+{"dataset": "ionosphere", "fold": 0, "k": 3, "method": "GenSel", "timeout": 30, "val_acc": 0.9107142857142857, "size": 15, "certified": true, "time": 21.351639986038208}
+{"dataset": "ionosphere", "fold": 0, "k": 3, "method": "DRL", "timeout": 30, "val_acc": 0.9285714285714286, "size": 24, "status": "SATISFIABLE", "time": 28.51961660385132}
+{"dataset": "ionosphere", "fold": 0, "k": 3, "method": "MLIC", "timeout": 30, "val_acc": 0.5178571428571429, "size": 14, "status": "SATISFIABLE", "time": 28.16949462890625}
+{"dataset": "ionosphere", "fold": 0, "k": 8, "method": "GenSel", "timeout": 30, "val_acc": 0.8928571428571429, "size": 21, "certified": true, "time": 22.977585792541504}
+{"dataset": "spambase", "fold": 3, "k": 2, "method": "GenSel", "timeout": 30, "val_acc": 0.649932157394844, "size": 1, "certified": false, "time": 29.833903551101685}
+{"dataset": "ionosphere", "fold": 0, "k": 8, "method": "DRL", "timeout": 30, "val_acc": 0.8214285714285714, "size": 45, "status": "SATISFIABLE", "time": 28.44188618659973}
+{"dataset": "spambase", "fold": 3, "k": 2, "method": "DRL", "timeout": 30, "val_acc": 0.3948439620081411, "size": 2, "status": "SATISFIABLE", "time": 28.75536584854126}
+{"dataset": "ionosphere", "fold": 0, "k": 8, "method": "MLIC", "timeout": 30, "val_acc": 0.6785714285714286, "size": 42, "status": "SATISFIABLE", "time": 28.327994108200073}
+{"dataset": "spambase", "fold": 3, "k": 2, "method": "MLIC", "timeout": 30, "val_acc": 0.6051560379918589, "size": 0, "status": "SATISFIABLE", "time": 28.674830436706543}
+{"dataset": "ionosphere", "fold": 1, "k": 2, "method": "GenSel", "timeout": 30, "val_acc": 1.0, "size": 10, "certified": true, "time": 21.789803504943848}
+{"dataset": "ionosphere", "fold": 1, "k": 2, "method": "DRL", "timeout": 30, "val_acc": 0.8771929824561403, "size": 12, "status": "OPTIMUM FOUND", "time": 12.664377450942993}
+{"dataset": "spambase", "fold": 3, "k": 5, "method": "GenSel", "timeout": 30, "val_acc": 0.649932157394844, "size": 1, "certified": false, "time": 29.7805917263031}
+{"dataset": "ionosphere", "fold": 1, "k": 2, "method": "MLIC", "timeout": 30, "val_acc": 0.7368421052631579, "size": 6, "status": "SATISFIABLE", "time": 28.100210905075073}
+{"dataset": "spambase", "fold": 3, "k": 5, "method": "DRL", "timeout": 30, "error": "no model", "time": 28.92411732673645}
+{"dataset": "ionosphere", "fold": 1, "k": 5, "method": "GenSel", "timeout": 30, "val_acc": 0.8596491228070176, "size": 18, "certified": true, "time": 22.645026206970215}
+{"dataset": "spambase", "fold": 3, "k": 5, "method": "MLIC", "timeout": 30, "val_acc": 0.6051560379918589, "size": 0, "status": "SATISFIABLE", "time": 28.648497581481934}
+{"dataset": "ionosphere", "fold": 1, "k": 5, "method": "DRL", "timeout": 30, "val_acc": 0.7894736842105263, "size": 41, "status": "SATISFIABLE", "time": 28.88967776298523}
+{"dataset": "spambase", "fold": 4, "k": 1, "method": "GenSel", "timeout": 30, "val_acc": 0.835820895522388, "size": 12, "certified": false, "time": 29.823880910873413}
+{"dataset": "ionosphere", "fold": 1, "k": 5, "method": "MLIC", "timeout": 30, "val_acc": 0.47368421052631576, "size": 34, "status": "SATISFIABLE", "time": 28.203779458999634}
+{"dataset": "spambase", "fold": 4, "k": 1, "method": "DRL", "timeout": 30, "val_acc": 0.6390773405698779, "size": 1, "status": "SATISFIABLE", "time": 28.96483612060547}
+{"dataset": "ionosphere", "fold": 2, "k": 1, "method": "GenSel", "timeout": 30, "val_acc": 0.8947368421052632, "size": 4, "certified": true, "time": 21.54005455970764}
+{"dataset": "ionosphere", "fold": 2, "k": 1, "method": "DRL", "timeout": 30, "val_acc": 0.8947368421052632, "size": 4, "status": "OPTIMUM FOUND", "time": 1.0767760276794434}
+{"dataset": "ionosphere", "fold": 2, "k": 1, "method": "MLIC", "timeout": 30, "val_acc": 0.8245614035087719, "size": 1, "status": "OPTIMUM FOUND", "time": 8.208620309829712}
+{"dataset": "spambase", "fold": 4, "k": 1, "method": "MLIC", "timeout": 30, "val_acc": 0.6051560379918589, "size": 0, "status": "SATISFIABLE", "time": 28.34546995162964}
+{"dataset": "ionosphere", "fold": 2, "k": 3, "method": "GenSel", "timeout": 30, "val_acc": 0.9122807017543859, "size": 12, "certified": true, "time": 21.929186820983887}
+{"dataset": "spambase", "fold": 4, "k": 3, "method": "GenSel", "timeout": 30, "val_acc": 0.8629579375848032, "size": 26, "certified": false, "time": 29.76829242706299}
+{"dataset": "ionosphere", "fold": 2, "k": 3, "method": "DRL", "timeout": 30, "val_acc": 0.9122807017543859, "size": 20, "status": "SATISFIABLE", "time": 28.533759355545044}
+{"dataset": "spambase", "fold": 4, "k": 3, "method": "DRL", "timeout": 30, "error": "no model", "time": 28.710180521011353}
+{"dataset": "ionosphere", "fold": 2, "k": 3, "method": "MLIC", "timeout": 30, "val_acc": 0.6491228070175439, "size": 20, "status": "SATISFIABLE", "time": 28.13758397102356}
+{"dataset": "spambase", "fold": 4, "k": 3, "method": "MLIC", "timeout": 30, "val_acc": 0.6051560379918589, "size": 0, "status": "SATISFIABLE", "time": 28.999231338500977}
+{"dataset": "spambase", "fold": 4, "k": 8, "method": "GenSel", "timeout": 30, "val_acc": 0.8629579375848032, "size": 26, "certified": false, "time": 29.863760709762573}
+{"dataset": "magic", "fold": 0, "k": 2, "method": "GenSel", "timeout": 30, "val_acc": 0.7092641261498029, "size": 10, "certified": false, "time": 30.133857250213623}
+{"dataset": "spambase", "fold": 4, "k": 8, "method": "DRL", "timeout": 30, "error": "no model", "time": 28.690484046936035}
+{"dataset": "magic", "fold": 0, "k": 2, "method": "DRL", "timeout": 30, "val_acc": 0.35151116951379763, "size": 2, "status": "SATISFIABLE", "time": 29.20508098602295}
+{"dataset": "spambase", "fold": 4, "k": 8, "method": "MLIC", "timeout": 30, "val_acc": 0.6051560379918589, "size": 0, "status": "SATISFIABLE", "time": 28.913012504577637}
+{"dataset": "magic", "fold": 0, "k": 2, "method": "MLIC", "timeout": 30, "val_acc": 0.6484888304862023, "size": 0, "status": "SATISFIABLE", "time": 28.753236055374146}
+{"dataset": "ionosphere", "fold": 3, "k": 2, "method": "GenSel", "timeout": 30, "val_acc": 0.9649122807017544, "size": 14, "certified": true, "time": 21.340739250183105}
+{"dataset": "ionosphere", "fold": 3, "k": 2, "method": "DRL", "timeout": 30, "val_acc": 0.9824561403508771, "size": 14, "status": "SATISFIABLE", "time": 28.37780499458313}
+{"dataset": "magic", "fold": 0, "k": 5, "method": "GenSel", "timeout": 30, "val_acc": 0.7092641261498029, "size": 10, "certified": false, "time": 30.09042477607727}
+{"dataset": "ionosphere", "fold": 3, "k": 2, "method": "MLIC", "timeout": 30, "val_acc": 0.8421052631578947, "size": 4, "status": "SATISFIABLE", "time": 28.09532618522644}
+{"dataset": "magic", "fold": 0, "k": 5, "method": "DRL", "timeout": 30, "error": "no model", "time": 28.932104349136353}
+{"dataset": "ionosphere", "fold": 3, "k": 5, "method": "GenSel", "timeout": 30, "val_acc": 0.9122807017543859, "size": 20, "certified": true, "time": 22.874772310256958}
+{"dataset": "magic", "fold": 0, "k": 5, "method": "MLIC", "timeout": 30, "val_acc": 0.6484888304862023, "size": 0, "status": "SATISFIABLE", "time": 28.343323469161987}
+{"dataset": "ionosphere", "fold": 3, "k": 5, "method": "DRL", "timeout": 30, "val_acc": 0.9298245614035088, "size": 41, "status": "SATISFIABLE", "time": 28.99311089515686}
+{"dataset": "magic", "fold": 1, "k": 1, "method": "GenSel", "timeout": 30, "val_acc": 0.6734559789750328, "size": 3, "certified": false, "time": 29.267303705215454}
+{"dataset": "ionosphere", "fold": 3, "k": 5, "method": "MLIC", "timeout": 30, "val_acc": 0.7894736842105263, "size": 31, "status": "SATISFIABLE", "time": 28.198865175247192}
+{"dataset": "magic", "fold": 1, "k": 1, "method": "DRL", "timeout": 30, "val_acc": 0.37746386333771353, "size": 1, "status": "SATISFIABLE", "time": 29.522153615951538}
+{"dataset": "ionosphere", "fold": 4, "k": 1, "method": "GenSel", "timeout": 30, "val_acc": 0.8245614035087719, "size": 5, "certified": true, "time": 21.62092614173889}
+{"dataset": "ionosphere", "fold": 4, "k": 1, "method": "DRL", "timeout": 30, "val_acc": 0.8245614035087719, "size": 5, "status": "OPTIMUM FOUND", "time": 1.057548999786377}
+{"dataset": "magic", "fold": 1, "k": 1, "method": "MLIC", "timeout": 30, "val_acc": 0.6484888304862023, "size": 0, "status": "SATISFIABLE", "time": 28.957448720932007}
+{"dataset": "ionosphere", "fold": 4, "k": 1, "method": "MLIC", "timeout": 30, "val_acc": 0.8070175438596491, "size": 1, "status": "OPTIMUM FOUND", "time": 19.77523922920227}
+{"dataset": "ionosphere", "fold": 4, "k": 3, "method": "GenSel", "timeout": 30, "val_acc": 0.8245614035087719, "size": 13, "certified": true, "time": 20.894665956497192}
+{"dataset": "magic", "fold": 1, "k": 3, "method": "GenSel", "timeout": 30, "val_acc": 0.6816688567674113, "size": 10, "certified": false, "time": 29.171823740005493}
+{"dataset": "ionosphere", "fold": 4, "k": 3, "method": "DRL", "timeout": 30, "val_acc": 0.8421052631578947, "size": 21, "status": "SATISFIABLE", "time": 28.526593923568726}
+{"dataset": "magic", "fold": 1, "k": 3, "method": "DRL", "timeout": 30, "val_acc": 0.6005256241787122, "size": 6, "status": "SATISFIABLE", "time": 30.34556770324707}
+{"dataset": "ionosphere", "fold": 4, "k": 3, "method": "MLIC", "timeout": 30, "val_acc": 0.3508771929824561, "size": 0, "status": "SATISFIABLE", "time": 28.524872541427612}
+{"dataset": "magic", "fold": 1, "k": 3, "method": "MLIC", "timeout": 30, "val_acc": 0.6484888304862023, "size": 0, "status": "SATISFIABLE", "time": 28.5181405544281}
+{"dataset": "magic", "fold": 1, "k": 8, "method": "GenSel", "timeout": 30, "val_acc": 0.6816688567674113, "size": 10, "certified": false, "time": 30.04188895225525}
+{"dataset": "magic", "fold": 1, "k": 8, "method": "DRL", "timeout": 30, "error": "no model", "time": 33.24863386154175}
+{"dataset": "magic", "fold": 1, "k": 8, "method": "MLIC", "timeout": 30, "val_acc": 0.6484888304862023, "size": 0, "status": "SATISFIABLE", "time": 28.955929040908813}
+{"dataset": "magic", "fold": 2, "k": 2, "method": "GenSel", "timeout": 30, "val_acc": 0.7233902759526938, "size": 10, "certified": false, "time": 30.14902114868164}
+{"dataset": "wdbc", "fold": 0, "k": 2, "method": "GenSel", "timeout": 30, "val_acc": 0.945054945054945, "size": 9, "certified": true, "time": 21.546249866485596}
+{"dataset": "magic", "fold": 2, "k": 2, "method": "DRL", "timeout": 30, "val_acc": 0.35151116951379763, "size": 2, "status": "SATISFIABLE", "time": 29.49323010444641}
+{"dataset": "wdbc", "fold": 0, "k": 2, "method": "DRL", "timeout": 30, "val_acc": 0.967032967032967, "size": 9, "status": "SATISFIABLE", "time": 28.83573579788208}
+{"dataset": "magic", "fold": 2, "k": 2, "method": "MLIC", "timeout": 30, "val_acc": 0.6484888304862023, "size": 0, "status": "SATISFIABLE", "time": 28.159696578979492}
+{"dataset": "wdbc", "fold": 0, "k": 2, "method": "MLIC", "timeout": 30, "val_acc": 0.967032967032967, "size": 7, "status": "SATISFIABLE", "time": 28.179752111434937}
+{"dataset": "wdbc", "fold": 0, "k": 5, "method": "GenSel", "timeout": 30, "val_acc": 0.9560439560439561, "size": 14, "certified": true, "time": 24.410053730010986}
+{"dataset": "magic", "fold": 3, "k": 1, "method": "GenSel", "timeout": 30, "val_acc": 0.7135348226018396, "size": 4, "certified": false, "time": 29.15277338027954}
+{"dataset": "wdbc", "fold": 0, "k": 5, "method": "DRL", "timeout": 30, "val_acc": 0.7472527472527473, "size": 28, "status": "SATISFIABLE", "time": 29.191049575805664}
+{"dataset": "magic", "fold": 3, "k": 1, "method": "DRL", "timeout": 30, "val_acc": 0.39224704336399474, "size": 1, "status": "SATISFIABLE", "time": 28.751590251922607}
+{"dataset": "wdbc", "fold": 0, "k": 5, "method": "MLIC", "timeout": 30, "val_acc": 0.9560439560439561, "size": 30, "status": "SATISFIABLE", "time": 29.353421211242676}
+{"dataset": "magic", "fold": 3, "k": 1, "method": "MLIC", "timeout": 30, "val_acc": 0.6484888304862023, "size": 0, "status": "SATISFIABLE", "time": 28.95316743850708}
+{"dataset": "wdbc", "fold": 1, "k": 1, "method": "GenSel", "timeout": 30, "val_acc": 0.9230769230769231, "size": 3, "certified": true, "time": 22.176080465316772}
+{"dataset": "wdbc", "fold": 1, "k": 1, "method": "DRL", "timeout": 30, "val_acc": 0.9230769230769231, "size": 3, "status": "OPTIMUM FOUND", "time": 3.0376393795013428}
+{"dataset": "wdbc", "fold": 1, "k": 1, "method": "MLIC", "timeout": 30, "val_acc": 0.9120879120879121, "size": 4, "status": "OPTIMUM FOUND", "time": 0.7955470085144043}
+{"dataset": "magic", "fold": 3, "k": 3, "method": "GenSel", "timeout": 30, "val_acc": 0.7122207621550591, "size": 10, "certified": false, "time": 30.19898223876953}
+{"dataset": "magic", "fold": 3, "k": 3, "method": "DRL", "timeout": 30, "error": "no model", "time": 28.497663974761963}
+{"dataset": "magic", "fold": 3, "k": 3, "method": "MLIC", "timeout": 30, "val_acc": 0.6484888304862023, "size": 0, "status": "SATISFIABLE", "time": 28.595767498016357}
+{"dataset": "magic", "fold": 3, "k": 8, "method": "GenSel", "timeout": 30, "val_acc": 0.7122207621550591, "size": 10, "certified": false, "time": 30.10644841194153}
+{"dataset": "wdbc", "fold": 1, "k": 8, "method": "GenSel", "timeout": 30, "val_acc": 0.8901098901098901, "size": 12, "certified": true, "time": 22.384422063827515}
+{"dataset": "magic", "fold": 3, "k": 8, "method": "DRL", "timeout": 30, "error": "no model", "time": 33.042587757110596}
+{"dataset": "wdbc", "fold": 1, "k": 8, "method": "DRL", "timeout": 30, "val_acc": 0.3516483516483517, "size": 34, "status": "SATISFIABLE", "time": 29.196056127548218}
+{"dataset": "magic", "fold": 3, "k": 8, "method": "MLIC", "timeout": 30, "val_acc": 0.6484888304862023, "size": 0, "status": "SATISFIABLE", "time": 28.73599886894226}
+{"dataset": "wdbc", "fold": 1, "k": 8, "method": "MLIC", "timeout": 30, "val_acc": 0.9120879120879121, "size": 29, "status": "SATISFIABLE", "time": 28.59622812271118}
+{"dataset": "magic", "fold": 4, "k": 2, "method": "GenSel", "timeout": 30, "val_acc": 0.6888961892247043, "size": 5, "certified": false, "time": 30.067453861236572}
+{"dataset": "wdbc", "fold": 2, "k": 2, "method": "GenSel", "timeout": 30, "val_acc": 0.8681318681318682, "size": 10, "certified": true, "time": 22.097612380981445}
+{"dataset": "magic", "fold": 4, "k": 2, "method": "DRL", "timeout": 30, "val_acc": 0.35151116951379763, "size": 2, "status": "SATISFIABLE", "time": 30.046076774597168}
+{"dataset": "wdbc", "fold": 2, "k": 2, "method": "DRL", "timeout": 30, "val_acc": 0.9230769230769231, "size": 7, "status": "SATISFIABLE", "time": 28.84966206550598}
+{"dataset": "magic", "fold": 4, "k": 2, "method": "MLIC", "timeout": 30, "val_acc": 0.6484888304862023, "size": 0, "status": "SATISFIABLE", "time": 28.929732084274292}
+{"dataset": "wdbc", "fold": 2, "k": 2, "method": "MLIC", "timeout": 30, "val_acc": 0.945054945054945, "size": 9, "status": "SATISFIABLE", "time": 28.173335790634155}
+{"dataset": "magic", "fold": 4, "k": 5, "method": "GenSel", "timeout": 30, "val_acc": 0.6888961892247043, "size": 5, "certified": false, "time": 30.050888538360596}
+{"dataset": "adult", "fold": 0, "k": 1, "method": "GenSel", "timeout": 30, "val_acc": 0.7796545105566218, "size": 17, "certified": false, "time": 29.762628316879272}
+{"dataset": "magic", "fold": 4, "k": 5, "method": "DRL", "timeout": 30, "error": "no model", "time": 28.518389225006104}
+{"dataset": "adult", "fold": 0, "k": 1, "method": "DRL", "timeout": 30, "val_acc": 0.35598208573256557, "size": 1, "status": "SATISFIABLE", "time": 30.00485587120056}
+{"dataset": "magic", "fold": 4, "k": 5, "method": "MLIC", "timeout": 30, "val_acc": 0.6484888304862023, "size": 0, "status": "SATISFIABLE", "time": 28.32872724533081}
+{"dataset": "adult", "fold": 0, "k": 1, "method": "MLIC", "timeout": 30, "val_acc": 0.7607165706973769, "size": 0, "status": "SATISFIABLE", "time": 28.311800003051758}
+{"dataset": "wdbc", "fold": 3, "k": 1, "method": "GenSel", "timeout": 30, "val_acc": 0.9010989010989011, "size": 4, "certified": true, "time": 21.85636258125305}
+{"dataset": "wdbc", "fold": 3, "k": 1, "method": "DRL", "timeout": 30, "val_acc": 0.8901098901098901, "size": 4, "status": "OPTIMUM FOUND", "time": 1.858262538909912}
+{"dataset": "wdbc", "fold": 3, "k": 1, "method": "MLIC", "timeout": 30, "val_acc": 0.945054945054945, "size": 2, "status": "OPTIMUM FOUND", "time": 0.7318706512451172}
+{"dataset": "wdbc", "fold": 3, "k": 3, "method": "GenSel", "timeout": 30, "val_acc": 0.9340659340659341, "size": 11, "certified": true, "time": 21.627541303634644}
+{"dataset": "wdbc", "fold": 3, "k": 3, "method": "DRL", "timeout": 30, "val_acc": 0.9120879120879121, "size": 16, "status": "SATISFIABLE", "time": 29.122087001800537}
+{"dataset": "wdbc", "fold": 3, "k": 3, "method": "MLIC", "timeout": 30, "val_acc": 0.6263736263736264, "size": 0, "status": "SATISFIABLE", "time": 28.269646883010864}
+{"dataset": "wdbc", "fold": 4, "k": 2, "method": "GenSel", "timeout": 30, "val_acc": 0.9021739130434783, "size": 10, "certified": true, "time": 21.544200658798218}
+{"dataset": "wdbc", "fold": 4, "k": 2, "method": "DRL", "timeout": 30, "val_acc": 0.9021739130434783, "size": 10, "status": "OPTIMUM FOUND", "time": 28.40125560760498}
+{"dataset": "adult", "fold": 1, "k": 5, "method": "GenSel", "timeout": 30, "val_acc": 0.7864363403710812, "size": 28, "certified": false, "time": 29.86806344985962}
+{"dataset": "wdbc", "fold": 4, "k": 2, "method": "MLIC", "timeout": 30, "val_acc": 0.8586956521739131, "size": 8, "status": "SATISFIABLE", "time": 28.171358346939087}
+{"dataset": "wdbc", "fold": 4, "k": 5, "method": "GenSel", "timeout": 30, "val_acc": 0.9130434782608695, "size": 13, "certified": true, "time": 22.2736713886261}
+{"dataset": "adult", "fold": 1, "k": 5, "method": "DRL", "timeout": 30, "error": "no model", "time": 49.912840843200684}
+{"dataset": "wdbc", "fold": 4, "k": 5, "method": "DRL", "timeout": 30, "val_acc": 0.75, "size": 23, "status": "SATISFIABLE", "time": 28.96490740776062}
+{"dataset": "adult", "fold": 1, "k": 5, "method": "MLIC", "timeout": 30, "val_acc": 0.7607165706973769, "size": 0, "status": "SATISFIABLE", "time": 28.64834475517273}
+{"dataset": "wdbc", "fold": 4, "k": 5, "method": "MLIC", "timeout": 30, "val_acc": 0.9239130434782609, "size": 22, "status": "SATISFIABLE", "time": 28.412595510482788}
+{"dataset": "adult", "fold": 2, "k": 1, "method": "GenSel", "timeout": 30, "val_acc": 0.7797824696097249, "size": 13, "certified": false, "time": 29.933786153793335}
+{"dataset": "australian", "fold": 0, "k": 1, "method": "GenSel", "timeout": 30, "val_acc": 0.8738738738738738, "size": 2, "certified": true, "time": 20.854841470718384}
+{"dataset": "australian", "fold": 0, "k": 1, "method": "DRL", "timeout": 30, "val_acc": 0.8738738738738738, "size": 2, "status": "OPTIMUM FOUND", "time": 1.3224661350250244}
+{"dataset": "australian", "fold": 0, "k": 1, "method": "MLIC", "timeout": 30, "val_acc": 0.8738738738738738, "size": 3, "status": "OPTIMUM FOUND", "time": 0.28163599967956543}
+{"dataset": "adult", "fold": 2, "k": 1, "method": "DRL", "timeout": 30, "val_acc": 0.36263595649392194, "size": 1, "status": "SATISFIABLE", "time": 30.357223510742188}
+{"dataset": "adult", "fold": 2, "k": 3, "method": "GenSel", "timeout": 30, "val_acc": 0.7840051183621242, "size": 22, "certified": false, "time": 30.1537082195282}
+{"dataset": "adult", "fold": 2, "k": 1, "method": "MLIC", "timeout": 30, "val_acc": 0.7607165706973769, "size": 0, "status": "SATISFIABLE", "time": 28.460328102111816}
+{"dataset": "adult", "fold": 2, "k": 3, "method": "DRL", "timeout": 30, "error": "no model", "time": 28.72354006767273}
+{"dataset": "adult", "fold": 2, "k": 8, "method": "GenSel", "timeout": 30, "val_acc": 0.7840051183621242, "size": 22, "certified": false, "time": 29.75593590736389}
+{"dataset": "adult", "fold": 2, "k": 3, "method": "MLIC", "timeout": 30, "val_acc": 0.7607165706973769, "size": 0, "status": "SATISFIABLE", "time": 28.74286675453186}
+{"dataset": "iris", "fold": 0, "k": 3, "method": "GenSel", "timeout": 30, "val_acc": 0.9583333333333334, "size": 10, "certified": true, "time": 1.3475053310394287}
+{"dataset": "iris", "fold": 0, "k": 3, "method": "DRL", "timeout": 30, "val_acc": 0.9583333333333334, "size": 10, "status": "OPTIMUM FOUND", "time": 0.16636323928833008}
+{"dataset": "iris", "fold": 0, "k": 3, "method": "MLIC", "timeout": 30, "val_acc": 1.0, "size": 5, "status": "OPTIMUM FOUND", "time": 0.11249208450317383}
+{"dataset": "adult", "fold": 2, "k": 8, "method": "DRL", "timeout": 30, "error": "no model", "time": 77.23789763450623}
+{"dataset": "adult", "fold": 2, "k": 8, "method": "MLIC", "timeout": 30, "val_acc": 0.7607165706973769, "size": 0, "status": "SATISFIABLE", "time": 29.04789924621582}
+{"dataset": "australian", "fold": 1, "k": 2, "method": "GenSel", "timeout": 30, "val_acc": 0.8918918918918919, "size": 6, "certified": true, "time": 23.39492964744568}
+{"dataset": "adult", "fold": 3, "k": 5, "method": "GenSel", "timeout": 30, "val_acc": 0.800255918106206, "size": 23, "certified": false, "time": 29.507797241210938}
+{"dataset": "australian", "fold": 1, "k": 2, "method": "DRL", "timeout": 30, "val_acc": 0.8378378378378378, "size": 6, "status": "SATISFIABLE", "time": 28.163872480392456}
+{"dataset": "australian", "fold": 1, "k": 2, "method": "MLIC", "timeout": 30, "val_acc": 0.8648648648648649, "size": 5, "status": "SATISFIABLE", "time": 28.0428626537323}
+{"dataset": "adult", "fold": 3, "k": 5, "method": "DRL", "timeout": 30, "error": "no model", "time": 47.944905281066895}
+{"dataset": "australian", "fold": 1, "k": 5, "method": "GenSel", "timeout": 30, "val_acc": 0.8738738738738738, "size": 22, "certified": true, "time": 25.907339334487915}
+{"dataset": "adult", "fold": 3, "k": 5, "method": "MLIC", "timeout": 30, "val_acc": 0.7607165706973769, "size": 0, "status": "SATISFIABLE", "time": 29.160661935806274}
+{"dataset": "australian", "fold": 1, "k": 5, "method": "DRL", "timeout": 30, "val_acc": 0.7477477477477478, "size": 23, "status": "SATISFIABLE", "time": 28.477201223373413}
+{"dataset": "adult", "fold": 4, "k": 1, "method": "GenSel", "timeout": 30, "val_acc": 0.7950095969289828, "size": 13, "certified": false, "time": 29.79765796661377}
+{"dataset": "australian", "fold": 1, "k": 5, "method": "MLIC", "timeout": 30, "val_acc": 0.8558558558558559, "size": 26, "status": "SATISFIABLE", "time": 28.093252658843994}
+{"dataset": "adult", "fold": 4, "k": 1, "method": "DRL", "timeout": 30, "val_acc": 0.3598208573256558, "size": 1, "status": "SATISFIABLE", "time": 29.55298113822937}
+{"dataset": "adult", "fold": 4, "k": 1, "method": "MLIC", "timeout": 30, "val_acc": 0.7607165706973769, "size": 0, "status": "SATISFIABLE", "time": 28.392268419265747}
+{"dataset": "australian", "fold": 2, "k": 3, "method": "GenSel", "timeout": 30, "val_acc": 0.8378378378378378, "size": 13, "certified": true, "time": 22.010247945785522}
+{"dataset": "australian", "fold": 2, "k": 3, "method": "DRL", "timeout": 30, "val_acc": 0.8288288288288288, "size": 14, "status": "SATISFIABLE", "time": 28.24013090133667}
+{"dataset": "australian", "fold": 2, "k": 3, "method": "MLIC", "timeout": 30, "val_acc": 0.8378378378378378, "size": 8, "status": "SATISFIABLE", "time": 28.07230806350708}
+{"dataset": "iris", "fold": 0, "k": 8, "method": "GenSel", "timeout": 30, "val_acc": 0.9583333333333334, "size": 10, "certified": true, "time": 0.877021312713623}
+{"dataset": "iris", "fold": 0, "k": 8, "method": "DRL", "timeout": 30, "val_acc": 0.9583333333333334, "size": 19, "status": "OPTIMUM FOUND", "time": 11.090853214263916}
+{"dataset": "iris", "fold": 0, "k": 8, "method": "MLIC", "timeout": 30, "val_acc": 0.9166666666666666, "size": 10, "status": "OPTIMUM FOUND", "time": 0.19117259979248047}
+{"dataset": "adult", "fold": 4, "k": 8, "method": "GenSel", "timeout": 30, "val_acc": 0.7946257197696737, "size": 25, "certified": false, "time": 29.878965854644775}
+{"dataset": "adult", "fold": 4, "k": 8, "method": "DRL", "timeout": 30, "error": "encoding too large", "time": 57.330485582351685}
+{"dataset": "adult", "fold": 4, "k": 8, "method": "MLIC", "timeout": 30, "val_acc": 0.7607165706973769, "size": 0, "status": "SATISFIABLE", "time": 28.36059594154358}
+{"dataset": "heart", "fold": 2, "k": 1, "method": "GenSel", "timeout": 30, "val_acc": 0.7551020408163265, "size": 4, "certified": true, "time": 23.839762210845947}
+{"dataset": "heart", "fold": 2, "k": 1, "method": "DRL", "timeout": 30, "val_acc": 0.7551020408163265, "size": 4, "status": "OPTIMUM FOUND", "time": 1.421539068222046}
+{"dataset": "heart", "fold": 2, "k": 1, "method": "MLIC", "timeout": 30, "val_acc": 0.7346938775510204, "size": 3, "status": "OPTIMUM FOUND", "time": 1.000964879989624}
+{"dataset": "australian", "fold": 4, "k": 5, "method": "GenSel", "timeout": 30, "val_acc": 0.8288288288288288, "size": 21, "certified": true, "time": 21.343581914901733}
+{"dataset": "ionosphere", "fold": 0, "k": 2, "method": "GenSel", "timeout": 30, "val_acc": 0.9642857142857143, "size": 10, "certified": true, "time": 21.056904077529907}
+{"dataset": "ionosphere", "fold": 0, "k": 2, "method": "DRL", "timeout": 30, "val_acc": 0.9642857142857143, "size": 11, "status": "OPTIMUM FOUND", "time": 10.901876449584961}
+{"dataset": "australian", "fold": 4, "k": 5, "method": "DRL", "timeout": 30, "val_acc": 0.8198198198198198, "size": 27, "status": "SATISFIABLE", "time": 28.432180881500244}
+{"dataset": "ionosphere", "fold": 0, "k": 2, "method": "MLIC", "timeout": 30, "val_acc": 0.7857142857142857, "size": 5, "status": "SATISFIABLE", "time": 28.11564803123474}
+{"dataset": "australian", "fold": 4, "k": 5, "method": "MLIC", "timeout": 30, "val_acc": 0.8198198198198198, "size": 25, "status": "SATISFIABLE", "time": 28.09873628616333}
+{"dataset": "wdbc", "fold": 0, "k": 3, "method": "GenSel", "timeout": 30, "val_acc": 0.945054945054945, "size": 13, "certified": true, "time": 21.761759519577026}
+{"dataset": "wdbc", "fold": 0, "k": 3, "method": "DRL", "timeout": 30, "val_acc": 0.967032967032967, "size": 22, "status": "SATISFIABLE", "time": 28.25773000717163}
+{"dataset": "wdbc", "fold": 0, "k": 3, "method": "MLIC", "timeout": 30, "val_acc": 0.945054945054945, "size": 24, "status": "SATISFIABLE", "time": 28.763816833496094}
+{"dataset": "ionosphere", "fold": 4, "k": 2, "method": "GenSel", "timeout": 30, "val_acc": 0.8421052631578947, "size": 14, "certified": true, "time": 21.880669832229614}
+{"dataset": "ionosphere", "fold": 4, "k": 2, "method": "DRL", "timeout": 30, "val_acc": 0.8947368421052632, "size": 12, "status": "OPTIMUM FOUND", "time": 7.955965757369995}
+{"dataset": "ionosphere", "fold": 4, "k": 2, "method": "MLIC", "timeout": 30, "val_acc": 0.8070175438596491, "size": 5, "status": "SATISFIABLE", "time": 28.083284378051758}
+{"dataset": "magic", "fold": 1, "k": 5, "method": "GenSel", "timeout": 30, "val_acc": 0.6816688567674113, "size": 10, "certified": false, "time": 30.074414491653442}
+{"dataset": "magic", "fold": 1, "k": 5, "method": "DRL", "timeout": 30, "error": "no model", "time": 29.124567985534668}
+{"dataset": "magic", "fold": 1, "k": 5, "method": "MLIC", "timeout": 30, "val_acc": 0.6484888304862023, "size": 0, "status": "SATISFIABLE", "time": 28.512979745864868}
+{"dataset": "tictactoe", "fold": 2, "k": 8, "method": "GenSel", "timeout": 30, "val_acc": 0.8961038961038961, "size": 13, "certified": true, "time": 24.580829620361328}
+{"dataset": "tictactoe", "fold": 2, "k": 8, "method": "DRL", "timeout": 30, "val_acc": 1.0, "size": 24, "status": "OPTIMUM FOUND", "time": 17.8147714138031}
+{"dataset": "tictactoe", "fold": 2, "k": 8, "method": "MLIC", "timeout": 30, "val_acc": 0.7857142857142857, "size": 46, "status": "SATISFIABLE", "time": 28.103726148605347}
+{"dataset": "iris", "fold": 1, "k": 3, "method": "GenSel", "timeout": 30, "val_acc": 0.9583333333333334, "size": 11, "certified": true, "time": 1.212007761001587}
+{"dataset": "iris", "fold": 1, "k": 3, "method": "DRL", "timeout": 30, "val_acc": 0.9583333333333334, "size": 11, "status": "OPTIMUM FOUND", "time": 0.2166748046875}
+{"dataset": "iris", "fold": 1, "k": 3, "method": "MLIC", "timeout": 30, "val_acc": 1.0, "size": 5, "status": "OPTIMUM FOUND", "time": 0.2514619827270508}
+{"dataset": "heart", "fold": 0, "k": 3, "method": "GenSel", "timeout": 30, "val_acc": 0.7142857142857143, "size": 14, "certified": true, "time": 21.031793117523193}
+{"dataset": "heart", "fold": 0, "k": 3, "method": "DRL", "timeout": 30, "val_acc": 0.7959183673469388, "size": 13, "status": "SATISFIABLE", "time": 28.145756006240845}
+{"dataset": "heart", "fold": 0, "k": 3, "method": "MLIC", "timeout": 30, "val_acc": 0.8163265306122449, "size": 21, "status": "SATISFIABLE", "time": 28.056702136993408}
+{"dataset": "heart", "fold": 1, "k": 5, "method": "GenSel", "timeout": 30, "val_acc": 0.8163265306122449, "size": 20, "certified": true, "time": 20.922014713287354}
+{"dataset": "heart", "fold": 1, "k": 5, "method": "DRL", "timeout": 30, "val_acc": 0.7346938775510204, "size": 31, "status": "SATISFIABLE", "time": 28.293256998062134}
+{"dataset": "wdbc", "fold": 2, "k": 1, "method": "GenSel", "timeout": 30, "val_acc": 0.8681318681318682, "size": 5, "certified": true, "time": 21.716466426849365}
+{"dataset": "wdbc", "fold": 2, "k": 1, "method": "DRL", "timeout": 30, "val_acc": 0.8681318681318682, "size": 5, "status": "OPTIMUM FOUND", "time": 1.8545036315917969}
+{"dataset": "wdbc", "fold": 2, "k": 1, "method": "MLIC", "timeout": 30, "val_acc": 0.9560439560439561, "size": 3, "status": "OPTIMUM FOUND", "time": 0.7890300750732422}
+{"dataset": "heart", "fold": 1, "k": 5, "method": "MLIC", "timeout": 30, "val_acc": 0.7959183673469388, "size": 33, "status": "SATISFIABLE", "time": 28.05982279777527}
+{"dataset": "ionosphere", "fold": 3, "k": 8, "method": "GenSel", "timeout": 30, "val_acc": 0.8771929824561403, "size": 22, "certified": true, "time": 22.466678619384766}
+{"dataset": "ionosphere", "fold": 3, "k": 8, "method": "DRL", "timeout": 30, "val_acc": 0.8421052631578947, "size": 32, "status": "SATISFIABLE", "time": 28.458080291748047}
+{"dataset": "ionosphere", "fold": 3, "k": 8, "method": "MLIC", "timeout": 30, "val_acc": 0.8070175438596491, "size": 29, "status": "SATISFIABLE", "time": 28.294422149658203}
+{"dataset": "tictactoe", "fold": 4, "k": 8, "method": "GenSel", "timeout": 30, "val_acc": 0.8961038961038961, "size": 13, "certified": true, "time": 22.03996777534485}
+{"dataset": "tictactoe", "fold": 4, "k": 8, "method": "DRL", "timeout": 30, "val_acc": 1.0, "size": 24, "status": "OPTIMUM FOUND", "time": 19.169329404830933}
+{"dataset": "tictactoe", "fold": 4, "k": 8, "method": "MLIC", "timeout": 30, "val_acc": 0.8636363636363636, "size": 57, "status": "SATISFIABLE", "time": 28.093437433242798}
+{"dataset": "adult", "fold": 4, "k": 2, "method": "GenSel", "timeout": 30, "val_acc": 0.7946257197696737, "size": 25, "certified": false, "time": 29.798368453979492}
+{"dataset": "adult", "fold": 4, "k": 2, "method": "DRL", "timeout": 30, "val_acc": 0.23928342930262317, "size": 2, "status": "SATISFIABLE", "time": 29.458300828933716}
+{"dataset": "adult", "fold": 4, "k": 2, "method": "MLIC", "timeout": 30, "val_acc": 0.7607165706973769, "size": 0, "status": "SATISFIABLE", "time": 28.43624520301819}
+{"dataset": "magic", "fold": 4, "k": 8, "method": "GenSel", "timeout": 30, "val_acc": 0.6888961892247043, "size": 5, "certified": false, "time": 29.166280031204224}
+{"dataset": "magic", "fold": 4, "k": 8, "method": "DRL", "timeout": 30, "error": "no model", "time": 32.841301679611206}
+{"dataset": "magic", "fold": 4, "k": 8, "method": "MLIC", "timeout": 30, "val_acc": 0.6484888304862023, "size": 0, "status": "SATISFIABLE", "time": 28.753972053527832}
+{"dataset": "heart", "fold": 0, "k": 8, "method": "GenSel", "timeout": 30, "val_acc": 0.7142857142857143, "size": 40, "certified": true, "time": 22.375025987625122}
+{"dataset": "ionosphere", "fold": 1, "k": 3, "method": "GenSel", "timeout": 30, "val_acc": 0.8947368421052632, "size": 14, "certified": true, "time": 22.18362307548523}
+{"dataset": "heart", "fold": 0, "k": 8, "method": "DRL", "timeout": 30, "val_acc": 0.7959183673469388, "size": 48, "status": "SATISFIABLE", "time": 28.36815619468689}
+{"dataset": "ionosphere", "fold": 1, "k": 3, "method": "DRL", "timeout": 30, "val_acc": 0.8421052631578947, "size": 21, "status": "SATISFIABLE", "time": 28.608641624450684}
+{"dataset": "heart", "fold": 0, "k": 8, "method": "MLIC", "timeout": 30, "val_acc": 0.7346938775510204, "size": 55, "status": "SATISFIABLE", "time": 28.08730673789978}
+{"dataset": "ionosphere", "fold": 1, "k": 3, "method": "MLIC", "timeout": 30, "val_acc": 0.47368421052631576, "size": 13, "status": "SATISFIABLE", "time": 28.155903577804565}
+{"dataset": "tictactoe", "fold": 0, "k": 3, "method": "GenSel", "timeout": 30, "val_acc": 0.7857142857142857, "size": 8, "certified": false, "time": 29.232828855514526}
+{"dataset": "tictactoe", "fold": 0, "k": 8, "method": "GenSel", "timeout": 30, "val_acc": 0.9285714285714286, "size": 13, "certified": true, "time": 28.54805564880371}
+{"dataset": "tictactoe", "fold": 0, "k": 3, "method": "DRL", "timeout": 30, "val_acc": 0.7272727272727273, "size": 5, "status": "SATISFIABLE", "time": 28.217025756835938}
+{"dataset": "tictactoe", "fold": 0, "k": 8, "method": "DRL", "timeout": 30, "val_acc": 1.0, "size": 24, "status": "OPTIMUM FOUND", "time": 17.391886234283447}
+{"dataset": "tictactoe", "fold": 0, "k": 3, "method": "MLIC", "timeout": 30, "val_acc": 0.8246753246753247, "size": 13, "status": "SATISFIABLE", "time": 28.043196201324463}
+{"dataset": "tictactoe", "fold": 0, "k": 8, "method": "MLIC", "timeout": 30, "val_acc": 0.8831168831168831, "size": 51, "status": "SATISFIABLE", "time": 28.088714361190796}
+{"dataset": "australian", "fold": 2, "k": 5, "method": "GenSel", "timeout": 30, "val_acc": 0.8198198198198198, "size": 25, "certified": true, "time": 21.090887308120728}
+{"dataset": "australian", "fold": 2, "k": 5, "method": "DRL", "timeout": 30, "val_acc": 0.8378378378378378, "size": 26, "status": "SATISFIABLE", "time": 28.407884120941162}
+{"dataset": "australian", "fold": 2, "k": 5, "method": "MLIC", "timeout": 30, "val_acc": 0.8378378378378378, "size": 21, "status": "SATISFIABLE", "time": 28.11932110786438}
+{"dataset": "iris", "fold": 2, "k": 2, "method": "GenSel", "timeout": 30, "val_acc": 1.0, "size": 6, "certified": true, "time": 1.0062708854675293}
+{"dataset": "iris", "fold": 2, "k": 2, "method": "DRL", "timeout": 30, "val_acc": 1.0, "size": 6, "status": "OPTIMUM FOUND", "time": 0.1315169334411621}
+{"dataset": "iris", "fold": 2, "k": 2, "method": "MLIC", "timeout": 30, "val_acc": 0.9583333333333334, "size": 3, "status": "OPTIMUM FOUND", "time": 0.12089800834655762}
+{"dataset": "heart", "fold": 2, "k": 8, "method": "GenSel", "timeout": 30, "val_acc": 0.7959183673469388, "size": 32, "certified": true, "time": 22.051019430160522}
+{"dataset": "tictactoe", "fold": 1, "k": 5, "method": "GenSel", "timeout": 30, "val_acc": 0.9155844155844156, "size": 13, "certified": true, "time": 21.479342222213745}
+{"dataset": "heart", "fold": 2, "k": 8, "method": "DRL", "timeout": 30, "val_acc": 0.7142857142857143, "size": 54, "status": "SATISFIABLE", "time": 28.386837482452393}
+{"dataset": "tictactoe", "fold": 1, "k": 5, "method": "DRL", "timeout": 30, "val_acc": 0.6883116883116883, "size": 13, "status": "SATISFIABLE", "time": 28.25138258934021}
+{"dataset": "heart", "fold": 2, "k": 8, "method": "MLIC", "timeout": 30, "val_acc": 0.673469387755102, "size": 73, "status": "SATISFIABLE", "time": 28.08711886405945}
+{"dataset": "tictactoe", "fold": 1, "k": 5, "method": "MLIC", "timeout": 30, "val_acc": 0.8376623376623377, "size": 27, "status": "SATISFIABLE", "time": 28.064626455307007}
+{"dataset": "australian", "fold": 1, "k": 8, "method": "GenSel", "timeout": 30, "val_acc": 0.8828828828828829, "size": 38, "certified": false, "time": 29.0173180103302}
+{"dataset": "australian", "fold": 1, "k": 8, "method": "DRL", "timeout": 30, "val_acc": 0.7657657657657657, "size": 41, "status": "SATISFIABLE", "time": 28.73410725593567}
+{"dataset": "australian", "fold": 1, "k": 8, "method": "MLIC", "timeout": 30, "val_acc": 0.8378378378378378, "size": 40, "status": "SATISFIABLE", "time": 28.15670371055603}
+{"dataset": "heart", "fold": 4, "k": 1, "method": "GenSel", "timeout": 30, "val_acc": 0.7551020408163265, "size": 2, "certified": true, "time": 22.515636444091797}
+{"dataset": "heart", "fold": 4, "k": 1, "method": "DRL", "timeout": 30, "val_acc": 0.7551020408163265, "size": 2, "status": "OPTIMUM FOUND", "time": 2.972245693206787}
+{"dataset": "heart", "fold": 4, "k": 1, "method": "MLIC", "timeout": 30, "val_acc": 0.673469387755102, "size": 3, "status": "OPTIMUM FOUND", "time": 0.4831063747406006}
+{"dataset": "spambase", "fold": 3, "k": 1, "method": "GenSel", "timeout": 30, "val_acc": 0.649932157394844, "size": 1, "certified": false, "time": 29.77535843849182}
+{"dataset": "wdbc", "fold": 2, "k": 3, "method": "GenSel", "timeout": 30, "val_acc": 0.8901098901098901, "size": 18, "certified": true, "time": 22.14962911605835}
+{"dataset": "spambase", "fold": 3, "k": 1, "method": "DRL", "timeout": 30, "val_acc": 0.649932157394844, "size": 1, "status": "SATISFIABLE", "time": 28.87485957145691}
+{"dataset": "wdbc", "fold": 2, "k": 3, "method": "DRL", "timeout": 30, "val_acc": 0.9010989010989011, "size": 20, "status": "SATISFIABLE", "time": 28.216219663619995}
+{"dataset": "spambase", "fold": 3, "k": 1, "method": "MLIC", "timeout": 30, "val_acc": 0.6051560379918589, "size": 0, "status": "SATISFIABLE", "time": 28.35069727897644}
+{"dataset": "wdbc", "fold": 2, "k": 3, "method": "MLIC", "timeout": 30, "val_acc": 0.6263736263736264, "size": 0, "status": "SATISFIABLE", "time": 28.604116439819336}
+{"dataset": "tictactoe", "fold": 0, "k": 1, "method": "GenSel", "timeout": 30, "val_acc": 0.7272727272727273, "size": 1, "certified": true, "time": 23.539753675460815}
+{"dataset": "tictactoe", "fold": 0, "k": 1, "method": "DRL", "timeout": 30, "val_acc": 0.7272727272727273, "size": 1, "status": "OPTIMUM FOUND", "time": 2.9461565017700195}
+{"dataset": "tictactoe", "fold": 0, "k": 1, "method": "MLIC", "timeout": 30, "val_acc": 0.7272727272727273, "size": 3, "status": "OPTIMUM FOUND", "time": 6.973381519317627}
+{"dataset": "heart", "fold": 4, "k": 8, "method": "GenSel", "timeout": 30, "val_acc": 0.6938775510204082, "size": 34, "certified": true, "time": 23.063250064849854}
+{"dataset": "heart", "fold": 4, "k": 8, "method": "DRL", "timeout": 30, "val_acc": 0.6938775510204082, "size": 53, "status": "SATISFIABLE", "time": 28.366183519363403}
+{"dataset": "heart", "fold": 4, "k": 8, "method": "MLIC", "timeout": 30, "val_acc": 0.7551020408163265, "size": 71, "status": "SATISFIABLE", "time": 28.08835482597351}
+{"dataset": "wdbc", "fold": 4, "k": 3, "method": "GenSel", "timeout": 30, "val_acc": 0.9130434782608695, "size": 13, "certified": true, "time": 22.135274171829224}
+{"dataset": "australian", "fold": 2, "k": 8, "method": "GenSel", "timeout": 30, "val_acc": 0.8288288288288288, "size": 40, "certified": true, "time": 24.542366981506348}
+{"dataset": "wdbc", "fold": 4, "k": 3, "method": "DRL", "timeout": 30, "val_acc": 0.8804347826086957, "size": 22, "status": "SATISFIABLE", "time": 28.182586193084717}
+{"dataset": "australian", "fold": 2, "k": 8, "method": "DRL", "timeout": 30, "val_acc": 0.6306306306306306, "size": 27, "status": "SATISFIABLE", "time": 28.695460319519043}
+{"dataset": "wdbc", "fold": 4, "k": 3, "method": "MLIC", "timeout": 30, "val_acc": 0.8152173913043478, "size": 16, "status": "SATISFIABLE", "time": 29.025535106658936}
+{"dataset": "australian", "fold": 2, "k": 8, "method": "MLIC", "timeout": 30, "val_acc": 0.8558558558558559, "size": 34, "status": "SATISFIABLE", "time": 28.15006971359253}
+{"dataset": "australian", "fold": 0, "k": 5, "method": "GenSel", "timeout": 30, "val_acc": 0.8558558558558559, "size": 26, "certified": true, "time": 20.950130224227905}
+{"dataset": "spambase", "fold": 3, "k": 3, "method": "GenSel", "timeout": 30, "val_acc": 0.649932157394844, "size": 1, "certified": false, "time": 29.825334072113037}
+{"dataset": "australian", "fold": 0, "k": 5, "method": "DRL", "timeout": 30, "val_acc": 0.8108108108108109, "size": 24, "status": "SATISFIABLE", "time": 28.48214364051819}
+{"dataset": "spambase", "fold": 3, "k": 3, "method": "DRL", "timeout": 30, "val_acc": 0.43826322930800543, "size": 11, "status": "SATISFIABLE", "time": 29.584612607955933}
+{"dataset": "australian", "fold": 0, "k": 5, "method": "MLIC", "timeout": 30, "val_acc": 0.8648648648648649, "size": 23, "status": "SATISFIABLE", "time": 28.089892625808716}
+{"dataset": "spambase", "fold": 3, "k": 3, "method": "MLIC", "timeout": 30, "val_acc": 0.6051560379918589, "size": 0, "status": "SATISFIABLE", "time": 29.049503326416016}
+{"dataset": "spambase", "fold": 0, "k": 5, "method": "GenSel", "timeout": 30, "val_acc": 0.8668478260869565, "size": 24, "certified": false, "time": 29.918834447860718}
+{"dataset": "spambase", "fold": 0, "k": 5, "method": "DRL", "timeout": 30, "error": "no model", "time": 28.29419255256653}
+{"dataset": "spambase", "fold": 0, "k": 5, "method": "MLIC", "timeout": 30, "val_acc": 0.6059782608695652, "size": 0, "status": "SATISFIABLE", "time": 28.682276248931885}
+{"dataset": "magic", "fold": 4, "k": 3, "method": "GenSel", "timeout": 30, "val_acc": 0.6888961892247043, "size": 5, "certified": false, "time": 29.401110887527466}
+{"dataset": "ionosphere", "fold": 1, "k": 8, "method": "GenSel", "timeout": 30, "val_acc": 0.8771929824561403, "size": 19, "certified": true, "time": 22.673996448516846}
+{"dataset": "magic", "fold": 4, "k": 3, "method": "DRL", "timeout": 30, "error": "no model", "time": 28.65795087814331}
+{"dataset": "ionosphere", "fold": 1, "k": 8, "method": "DRL", "timeout": 30, "val_acc": 0.8421052631578947, "size": 54, "status": "SATISFIABLE", "time": 28.397429704666138}
+{"dataset": "magic", "fold": 4, "k": 3, "method": "MLIC", "timeout": 30, "val_acc": 0.6484888304862023, "size": 0, "status": "SATISFIABLE", "time": 28.674535751342773}
+{"dataset": "ionosphere", "fold": 1, "k": 8, "method": "MLIC", "timeout": 30, "val_acc": 0.7719298245614035, "size": 48, "status": "SATISFIABLE", "time": 28.304123163223267}
+{"dataset": "magic", "fold": 2, "k": 3, "method": "GenSel", "timeout": 30, "val_acc": 0.7233902759526938, "size": 10, "certified": false, "time": 30.09620451927185}
+{"dataset": "magic", "fold": 2, "k": 3, "method": "DRL", "timeout": 30, "error": "no model", "time": 28.9895658493042}
+{"dataset": "magic", "fold": 2, "k": 3, "method": "MLIC", "timeout": 30, "val_acc": 0.6484888304862023, "size": 0, "status": "SATISFIABLE", "time": 28.880921602249146}
+{"dataset": "iris", "fold": 0, "k": 2, "method": "GenSel", "timeout": 30, "val_acc": 1.0, "size": 6, "certified": true, "time": 1.1819484233856201}
+{"dataset": "iris", "fold": 0, "k": 2, "method": "DRL", "timeout": 30, "val_acc": 1.0, "size": 6, "status": "OPTIMUM FOUND", "time": 0.1394367218017578}
+{"dataset": "iris", "fold": 0, "k": 2, "method": "MLIC", "timeout": 30, "val_acc": 1.0, "size": 3, "status": "OPTIMUM FOUND", "time": 0.11232161521911621}
+{"dataset": "iris", "fold": 4, "k": 5, "method": "GenSel", "timeout": 30, "val_acc": 1.0, "size": 11, "certified": true, "time": 1.2123761177062988}
+{"dataset": "iris", "fold": 4, "k": 5, "method": "DRL", "timeout": 30, "val_acc": 1.0, "size": 14, "status": "OPTIMUM FOUND", "time": 3.0945584774017334}
+{"dataset": "iris", "fold": 4, "k": 5, "method": "MLIC", "timeout": 30, "val_acc": 1.0, "size": 8, "status": "OPTIMUM FOUND", "time": 0.2681136131286621}
+{"dataset": "adult", "fold": 2, "k": 2, "method": "GenSel", "timeout": 30, "val_acc": 0.7840051183621242, "size": 22, "certified": false, "time": 29.700985431671143}
+{"dataset": "adult", "fold": 2, "k": 2, "method": "DRL", "timeout": 30, "val_acc": 0.23928342930262317, "size": 2, "status": "SATISFIABLE", "time": 30.89288902282715}
+{"dataset": "adult", "fold": 2, "k": 2, "method": "MLIC", "timeout": 30, "val_acc": 0.7607165706973769, "size": 0, "status": "SATISFIABLE", "time": 28.242523431777954}
+{"dataset": "spambase", "fold": 1, "k": 3, "method": "GenSel", "timeout": 30, "val_acc": 0.6580732700135685, "size": 1, "certified": false, "time": 29.816649675369263}
+{"dataset": "magic", "fold": 3, "k": 5, "method": "GenSel", "timeout": 30, "val_acc": 0.7122207621550591, "size": 10, "certified": false, "time": 29.140849590301514}
+{"dataset": "spambase", "fold": 1, "k": 3, "method": "DRL", "timeout": 30, "error": "no model", "time": 28.494821071624756}
+{"dataset": "magic", "fold": 3, "k": 5, "method": "DRL", "timeout": 30, "error": "no model", "time": 28.52076745033264}
+{"dataset": "spambase", "fold": 1, "k": 3, "method": "MLIC", "timeout": 30, "val_acc": 0.6065128900949797, "size": 0, "status": "SATISFIABLE", "time": 28.987382888793945}
+{"dataset": "magic", "fold": 3, "k": 5, "method": "MLIC", "timeout": 30, "val_acc": 0.6484888304862023, "size": 0, "status": "SATISFIABLE", "time": 28.19120502471924}
+{"dataset": "iris", "fold": 4, "k": 2, "method": "GenSel", "timeout": 30, "val_acc": 1.0, "size": 8, "certified": true, "time": 1.1659235954284668}
+{"dataset": "iris", "fold": 4, "k": 2, "method": "DRL", "timeout": 30, "val_acc": 1.0, "size": 8, "status": "OPTIMUM FOUND", "time": 0.11250925064086914}
+{"dataset": "iris", "fold": 4, "k": 2, "method": "MLIC", "timeout": 30, "val_acc": 0.9583333333333334, "size": 2, "status": "OPTIMUM FOUND", "time": 0.08461260795593262}
+{"dataset": "magic", "fold": 0, "k": 3, "method": "GenSel", "timeout": 30, "val_acc": 0.7092641261498029, "size": 10, "certified": false, "time": 30.0605309009552}
+{"dataset": "magic", "fold": 0, "k": 3, "method": "DRL", "timeout": 30, "val_acc": 0.5604467805519053, "size": 8, "status": "SATISFIABLE", "time": 30.47031879425049}
+{"dataset": "magic", "fold": 0, "k": 3, "method": "MLIC", "timeout": 30, "val_acc": 0.6484888304862023, "size": 0, "status": "SATISFIABLE", "time": 28.793905019760132}
+{"dataset": "spambase", "fold": 0, "k": 2, "method": "GenSel", "timeout": 30, "val_acc": 0.8519021739130435, "size": 21, "certified": false, "time": 29.89012598991394}
+{"dataset": "adult", "fold": 2, "k": 5, "method": "GenSel", "timeout": 30, "val_acc": 0.7840051183621242, "size": 22, "certified": false, "time": 29.711522102355957}
+{"dataset": "spambase", "fold": 0, "k": 2, "method": "DRL", "timeout": 30, "val_acc": 0.39402173913043476, "size": 2, "status": "SATISFIABLE", "time": 28.437540769577026}
+{"dataset": "spambase", "fold": 0, "k": 2, "method": "MLIC", "timeout": 30, "val_acc": 0.6059782608695652, "size": 0, "status": "SATISFIABLE", "time": 28.744737148284912}
+{"dataset": "adult", "fold": 2, "k": 5, "method": "DRL", "timeout": 30, "error": "no model", "time": 47.003536224365234}
+{"dataset": "ionosphere", "fold": 2, "k": 5, "method": "GenSel", "timeout": 30, "val_acc": 0.9298245614035088, "size": 20, "certified": true, "time": 22.336771965026855}
+{"dataset": "adult", "fold": 2, "k": 5, "method": "MLIC", "timeout": 30, "val_acc": 0.7607165706973769, "size": 0, "status": "SATISFIABLE", "time": 29.1443452835083}
+{"dataset": "ionosphere", "fold": 2, "k": 5, "method": "DRL", "timeout": 30, "val_acc": 0.8771929824561403, "size": 31, "status": "SATISFIABLE", "time": 28.88342046737671}
+{"dataset": "ionosphere", "fold": 0, "k": 5, "method": "GenSel", "timeout": 30, "val_acc": 0.875, "size": 22, "certified": true, "time": 23.068517446517944}
+{"dataset": "ionosphere", "fold": 2, "k": 5, "method": "MLIC", "timeout": 30, "val_acc": 0.3508771929824561, "size": 0, "status": "SATISFIABLE", "time": 29.147842168807983}
+{"dataset": "ionosphere", "fold": 0, "k": 5, "method": "DRL", "timeout": 30, "val_acc": 0.875, "size": 33, "status": "SATISFIABLE", "time": 28.95122790336609}
+{"dataset": "magic", "fold": 2, "k": 1, "method": "GenSel", "timeout": 30, "val_acc": 0.6921813403416557, "size": 5, "certified": false, "time": 30.011626720428467}
+{"dataset": "ionosphere", "fold": 0, "k": 5, "method": "MLIC", "timeout": 30, "val_acc": 0.35714285714285715, "size": 0, "status": "SATISFIABLE", "time": 28.5311598777771}
+{"dataset": "magic", "fold": 2, "k": 1, "method": "DRL", "timeout": 30, "val_acc": 0.37417871222076216, "size": 1, "status": "SATISFIABLE", "time": 29.41246724128723}
+{"dataset": "heart", "fold": 3, "k": 2, "method": "GenSel", "timeout": 30, "val_acc": 0.8163265306122449, "size": 6, "certified": true, "time": 21.5638530254364}
+{"dataset": "magic", "fold": 2, "k": 1, "method": "MLIC", "timeout": 30, "val_acc": 0.6484888304862023, "size": 0, "status": "SATISFIABLE", "time": 28.87157416343689}
+{"dataset": "heart", "fold": 3, "k": 2, "method": "DRL", "timeout": 30, "val_acc": 0.7959183673469388, "size": 6, "status": "SATISFIABLE", "time": 28.11098575592041}
+{"dataset": "heart", "fold": 3, "k": 2, "method": "MLIC", "timeout": 30, "val_acc": 0.7142857142857143, "size": 8, "status": "SATISFIABLE", "time": 28.029611110687256}
+{"dataset": "ionosphere", "fold": 2, "k": 2, "method": "GenSel", "timeout": 30, "val_acc": 0.9122807017543859, "size": 10, "certified": true, "time": 21.42660880088806}
+{"dataset": "ionosphere", "fold": 2, "k": 2, "method": "DRL", "timeout": 30, "val_acc": 0.8947368421052632, "size": 10, "status": "OPTIMUM FOUND", "time": 5.53722357749939}
+{"dataset": "ionosphere", "fold": 2, "k": 2, "method": "MLIC", "timeout": 30, "val_acc": 0.6491228070175439, "size": 8, "status": "SATISFIABLE", "time": 28.084105014801025}
+{"dataset": "australian", "fold": 3, "k": 2, "method": "GenSel", "timeout": 30, "val_acc": 0.7837837837837838, "size": 7, "certified": true, "time": 21.568192958831787}
+{"dataset": "australian", "fold": 3, "k": 2, "method": "DRL", "timeout": 30, "val_acc": 0.7927927927927928, "size": 9, "status": "SATISFIABLE", "time": 28.255913972854614}
+{"dataset": "australian", "fold": 3, "k": 2, "method": "MLIC", "timeout": 30, "val_acc": 0.7477477477477478, "size": 6, "status": "SATISFIABLE", "time": 28.070927619934082}
+{"dataset": "iris", "fold": 1, "k": 8, "method": "GenSel", "timeout": 30, "val_acc": 1.0, "size": 11, "certified": true, "time": 1.121750831604004}
+{"dataset": "magic", "fold": 4, "k": 1, "method": "GenSel", "timeout": 30, "val_acc": 0.6888961892247043, "size": 5, "certified": false, "time": 30.044655323028564}
+{"dataset": "iris", "fold": 1, "k": 8, "method": "DRL", "timeout": 30, "val_acc": 0.9583333333333334, "size": 21, "status": "OPTIMUM FOUND", "time": 18.0046706199646}
+{"dataset": "iris", "fold": 1, "k": 8, "method": "MLIC", "timeout": 30, "val_acc": 0.9583333333333334, "size": 12, "status": "OPTIMUM FOUND", "time": 0.5967662334442139}
+{"dataset": "magic", "fold": 4, "k": 1, "method": "DRL", "timeout": 30, "val_acc": 0.38272010512483573, "size": 1, "status": "SATISFIABLE", "time": 29.320460081100464}
+{"dataset": "tictactoe", "fold": 2, "k": 1, "method": "GenSel", "timeout": 30, "val_acc": 0.7532467532467533, "size": 1, "certified": true, "time": 22.848485231399536}
+{"dataset": "tictactoe", "fold": 2, "k": 1, "method": "DRL", "timeout": 30, "val_acc": 0.7532467532467533, "size": 1, "status": "OPTIMUM FOUND", "time": 2.080193281173706}
+{"dataset": "tictactoe", "fold": 2, "k": 1, "method": "MLIC", "timeout": 30, "val_acc": 0.7272727272727273, "size": 3, "status": "OPTIMUM FOUND", "time": 8.4415602684021}
+{"dataset": "magic", "fold": 4, "k": 1, "method": "MLIC", "timeout": 30, "val_acc": 0.6484888304862023, "size": 0, "status": "SATISFIABLE", "time": 28.868004322052002}
+{"dataset": "iris", "fold": 0, "k": 1, "method": "GenSel", "timeout": 30, "val_acc": 1.0, "size": 4, "certified": true, "time": 1.0672037601470947}
+{"dataset": "iris", "fold": 0, "k": 1, "method": "DRL", "timeout": 30, "val_acc": 1.0, "size": 4, "status": "OPTIMUM FOUND", "time": 0.0464627742767334}
+{"dataset": "iris", "fold": 0, "k": 1, "method": "MLIC", "timeout": 30, "val_acc": 0.625, "size": 1, "status": "OPTIMUM FOUND", "time": 0.027129650115966797}
+{"dataset": "australian", "fold": 4, "k": 1, "method": "GenSel", "timeout": 30, "val_acc": 0.8558558558558559, "size": 2, "certified": true, "time": 21.251546621322632}
+{"dataset": "australian", "fold": 4, "k": 1, "method": "DRL", "timeout": 30, "val_acc": 0.8558558558558559, "size": 2, "status": "OPTIMUM FOUND", "time": 1.0715553760528564}
+{"dataset": "australian", "fold": 4, "k": 1, "method": "MLIC", "timeout": 30, "val_acc": 0.8558558558558559, "size": 3, "status": "OPTIMUM FOUND", "time": 1.0855119228363037}
+{"dataset": "heart", "fold": 1, "k": 2, "method": "GenSel", "timeout": 30, "val_acc": 0.7959183673469388, "size": 6, "certified": true, "time": 21.12287974357605}
+{"dataset": "heart", "fold": 1, "k": 2, "method": "DRL", "timeout": 30, "val_acc": 0.7755102040816326, "size": 10, "status": "SATISFIABLE", "time": 28.093321323394775}
+{"dataset": "heart", "fold": 1, "k": 2, "method": "MLIC", "timeout": 30, "val_acc": 0.8571428571428571, "size": 11, "status": "SATISFIABLE", "time": 28.033185482025146}
+{"dataset": "tictactoe", "fold": 4, "k": 3, "method": "GenSel", "timeout": 30, "val_acc": 0.7792207792207793, "size": 7, "certified": true, "time": 21.835747003555298}
+{"dataset": "tictactoe", "fold": 4, "k": 3, "method": "DRL", "timeout": 30, "val_acc": 0.6948051948051948, "size": 11, "status": "SATISFIABLE", "time": 28.150336265563965}
+{"dataset": "tictactoe", "fold": 4, "k": 3, "method": "MLIC", "timeout": 30, "val_acc": 0.7987012987012987, "size": 13, "status": "SATISFIABLE", "time": 28.045904636383057}
+{"dataset": "adult", "fold": 1, "k": 1, "method": "GenSel", "timeout": 30, "val_acc": 0.7754318618042226, "size": 16, "certified": false, "time": 30.056516647338867}
+{"dataset": "adult", "fold": 1, "k": 1, "method": "DRL", "timeout": 30, "val_acc": 0.3550863723608445, "size": 1, "status": "SATISFIABLE", "time": 30.236788511276245}
+{"dataset": "adult", "fold": 1, "k": 1, "method": "MLIC", "timeout": 30, "val_acc": 0.7607165706973769, "size": 0, "status": "SATISFIABLE", "time": 28.205845594406128}
+{"dataset": "tictactoe", "fold": 1, "k": 2, "method": "GenSel", "timeout": 30, "val_acc": 0.7337662337662337, "size": 5, "certified": true, "time": 22.76526165008545}
+{"dataset": "tictactoe", "fold": 1, "k": 2, "method": "DRL", "timeout": 30, "val_acc": 0.7207792207792207, "size": 4, "status": "SATISFIABLE", "time": 28.100804805755615}
+{"dataset": "tictactoe", "fold": 1, "k": 2, "method": "MLIC", "timeout": 30, "val_acc": 0.6753246753246753, "size": 11, "status": "SATISFIABLE", "time": 28.03613042831421}
+{"dataset": "tictactoe", "fold": 4, "k": 1, "method": "GenSel", "timeout": 30, "val_acc": 0.7402597402597403, "size": 1, "certified": true, "time": 23.0147123336792}
+{"dataset": "tictactoe", "fold": 4, "k": 1, "method": "DRL", "timeout": 30, "val_acc": 0.7402597402597403, "size": 1, "status": "OPTIMUM FOUND", "time": 1.0513343811035156}
+{"dataset": "adult", "fold": 3, "k": 3, "method": "GenSel", "timeout": 30, "val_acc": 0.800255918106206, "size": 23, "certified": false, "time": 29.33782649040222}
+{"dataset": "tictactoe", "fold": 4, "k": 1, "method": "MLIC", "timeout": 30, "val_acc": 0.7467532467532467, "size": 3, "status": "SATISFIABLE", "time": 28.028005838394165}
+{"dataset": "iris", "fold": 1, "k": 2, "method": "GenSel", "timeout": 30, "val_acc": 1.0, "size": 7, "certified": true, "time": 0.6965236663818359}
+{"dataset": "iris", "fold": 1, "k": 2, "method": "DRL", "timeout": 30, "val_acc": 0.9583333333333334, "size": 7, "status": "OPTIMUM FOUND", "time": 0.10879015922546387}
+{"dataset": "iris", "fold": 1, "k": 2, "method": "MLIC", "timeout": 30, "val_acc": 0.9166666666666666, "size": 3, "status": "OPTIMUM FOUND", "time": 0.10181307792663574}
+{"dataset": "adult", "fold": 3, "k": 3, "method": "DRL", "timeout": 30, "error": "no model", "time": 28.754382610321045}
+{"dataset": "adult", "fold": 4, "k": 5, "method": "GenSel", "timeout": 30, "val_acc": 0.7946257197696737, "size": 25, "certified": false, "time": 29.846104621887207}
+{"dataset": "adult", "fold": 3, "k": 3, "method": "MLIC", "timeout": 30, "val_acc": 0.7607165706973769, "size": 0, "status": "SATISFIABLE", "time": 28.17671275138855}
+{"dataset": "magic", "fold": 2, "k": 8, "method": "GenSel", "timeout": 30, "val_acc": 0.7233902759526938, "size": 10, "certified": false, "time": 29.997379064559937}
+{"dataset": "adult", "fold": 4, "k": 5, "method": "DRL", "timeout": 30, "error": "no model", "time": 47.589409589767456}
+{"dataset": "magic", "fold": 2, "k": 8, "method": "DRL", "timeout": 30, "error": "no model", "time": 32.38618803024292}
+{"dataset": "adult", "fold": 4, "k": 5, "method": "MLIC", "timeout": 30, "val_acc": 0.7607165706973769, "size": 0, "status": "SATISFIABLE", "time": 28.62827157974243}
+{"dataset": "magic", "fold": 2, "k": 8, "method": "MLIC", "timeout": 30, "val_acc": 0.6484888304862023, "size": 0, "status": "SATISFIABLE", "time": 28.126445055007935}
+{"dataset": "spambase", "fold": 4, "k": 5, "method": "GenSel", "timeout": 30, "val_acc": 0.8629579375848032, "size": 26, "certified": false, "time": 29.74780511856079}
+{"dataset": "spambase", "fold": 4, "k": 5, "method": "DRL", "timeout": 30, "val_acc": 0.40027137042062416, "size": 13, "status": "SATISFIABLE", "time": 29.282179832458496}
+{"dataset": "spambase", "fold": 4, "k": 5, "method": "MLIC", "timeout": 30, "val_acc": 0.6051560379918589, "size": 0, "status": "SATISFIABLE", "time": 28.68047332763672}

@@ -1,0 +1,40 @@
+Version EGC 2027 (français) de l'article GenSel : sources LaTeX, code, données et résultats bruts.
+Le fichier README.md (en anglais) détaille tout ; ce fichier en donne l'essentiel.
+
+Contenu :
+  paper_egc/   sources de l'article
+                 egc2027_gensel.tex   source principale (gabarit RNTI)
+                 tab_*.tex            tableaux, générés à partir des résultats bruts
+                 refs.bib             bibliographie
+                 rnti.cls, rnti.bst   FICHIERS DE SUBSTITUTION LOCAUX, écrits uniquement pour
+                                      compiler le brouillon. Les remplacer par les fichiers
+                                      officiels du kit auteur RNTI/EGC avant soumission.
+  code/        code (Python), données (code/data), résultats de l'article (code/results),
+               scripts de lancement (code/scripts)
+
+Compilation de l'article : cd paper_egc ; pdflatex, bibtex, pdflatex, pdflatex.
+Avec la classe officielle, ajouter l'option « submission » si l'appel EGC le demande et vérifier
+la limite de 11 pages (hors références et résumé anglais).
+
+Lancer les expérimentations (depuis code/) :
+  1. Installation
+       pip install -r requirements.txt
+       bash scripts/build_openwbo.sh        # compile le solveur MaxSAT Open-WBO dans code/bin/
+  2. Vérification rapide (environ 2 minutes)
+       export GENSEL_RESULTS=$PWD/results_new ; mkdir -p $GENSEL_RESULTS
+       python3 test_toy.py
+       python3 run_gen.py iris 0 10 $GENSEL_RESULTS/gen.jsonl Greedy,CG
+     GenSel (« CG » dans le code) doit atteindre l'objectif train_obj = 8 (l'optimum).
+  3. Campagne complète (2 exécutions en parallèle, 60 s par pli et par méthode,
+     environ 10 à 12 heures au total)
+       bash scripts/run_baselines.sh        # LR, RF, RIPPER, MLIC, DRL (tables 2 à 4)
+       bash scripts/run_gensel.sh           # GenSel-G, GenSel, GenSel-F et sensibilité à k (tables 2 à 4)
+       bash scripts/run_select_k.sh         # choix de k par validation (table 5)
+       bash scripts/run_enum.sh             # comptage des générateurs (table 1) et sélection exacte
+     Sans GENSEL_RESULTS, les résultats sont ajoutés à code/results/, qui contient déjà ceux de
+     l'article. Les solveurs étant arrêtés par des limites de temps, les résultats sur les grands
+     jeux dépendent de la machine et peuvent légèrement différer de l'article.
+  4. Tableaux
+       bash scripts/make_tables.sh          # régénère paper_egc/tab_*.tex
+     Avec les résultats fournis dans code/results/, les tableaux obtenus sont identiques à ceux
+     de l'article.

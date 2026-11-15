@@ -1,0 +1,9 @@
+{"dataset": "iris", "n_bin": 35, "counts": [56, 1023, 6643, 15203], "complete": true, "time": 0.12253332138061523}
+{"dataset": "heart", "n_bin": 64, "counts": [124, 6504, 161186, 2045970], "complete": true, "time": 8.98985505104065}
+{"dataset": "tictactoe", "n_bin": 27, "counts": [54, 1323, 19058, 158105], "complete": true, "time": 0.7787721157073975}
+{"dataset": "ionosphere", "n_bin": 283, "counts": [531, 130306, 2000157], "complete": false, "time": 5.917474985122681}
+{"dataset": "wdbc", "n_bin": 270, "counts": [505, 99689, 2000056], "complete": false, "time": 6.269563674926758}
+{"dataset": "australian", "n_bin": 58, "counts": [99, 3902, 75610, 748945], "complete": true, "time": 3.0870368480682373}
+{"dataset": "spambase", "n_bin": 151, "counts": [302, 42241, 2000012], "complete": false, "time": 7.085668325424194}
+{"dataset": "magic", "n_bin": 90, "counts": [180, 14189, 622420, 2000012], "complete": false, "time": 16.952900886535645}
+{"dataset": "adult", "n_bin": 72, "counts": [141, 8909, 326500], "complete": true, "time": 2.0935089588165283}
