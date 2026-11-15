@@ -76,24 +76,6 @@ cd ../paper_egc && pdflatex egc2027_gensel && bibtex egc2027_gensel && pdflatex 
 With the results shipped in `code/results/`, the generated tables are identical to those of
 the paper. To build tables from new results, set `GENSEL_RESULTS` to their directory.
 
-+++++++++++++++++++++++++++++++++
-## Source files
-+++++++++++++++++++++++++++++++++
-
-| File | Content |
-|---|---|
-| `gencg.py` | GenSel: MaxSAT oracle, greedy generation, LP-guided generation (column generation), MaxSAT master, post-processing |
-| `run_gen.py` | Runs GenSel-G / GenSel / GenSel-F on one fold |
-| `satgen.py` | SAT encoding and enumeration of minimal generators (witness encoding); `test_toy.py`, `test_real.py` check it against brute force |
-| `encode.py` | WCNF writer, DRL encoding, Open-WBO portfolio (linear search, then OLL) |
-| `rules.py` | Rule evaluation, objective (1), post-processing, MLIC encoding |
-| `run.py` | Baselines: LR, RF, RIPPER (wittgenstein), MLIC and DRL (re-implemented with the same solver). It also contains the MinSS methods of another paper, not used here |
-| `val_run.py` | Validation runs used to choose k |
-| `data.py` | Dataset loading and binarization (9 quantile thresholds, one-hot encoding) |
-| `enum_count.py` | Levelwise enumeration of minimal generators (Table 1) |
-| `exact.py`, `exact_lane.py`, `agg_exact.py` | Enumeration, lossless filtering and exact selection by integer programming (HiGHS) |
-| `agg2.py`, `tables2.py`, `tables_k2.py`, `tables_sel.py`, `tables_egc.py` | Aggregation and LaTeX tables (English paper; `tables_egc.py` for the French EGC version) |
-| `toy.py` | GenSel on the running example of the paper |
 
 ## Data
 
